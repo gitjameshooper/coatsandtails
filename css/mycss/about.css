@@ -1,0 +1,149 @@
+div.social-media-about{margin-left:auto;margin-right:auto;width:200px;}
+p.about-center{color:#fff;line-height:26px;text-align:center;font-size:22px;}
+ul.about{list-style:none;}
+
+#about{
+	position:absolute;
+	margin-top: 4%;
+	margin-left:45%
+}
+
+img.pricing{display: block}
+
+ul.leaders {
+    
+	margin-left: 25px;
+	
+	max-width: 25em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+	margin-bottom: 0px;
+	}
+ul.leaders li:before {
+	
+	float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . "}
+ul.leaders span:first-child {
+  
+	padding-right: 0.40em;
+    background: white}
+ul.leaders span + span {
+   
+	float: right;
+    padding-left: 0.40em;
+    background: white}
+	
+	hr.list { 
+    border-width: .08em;
+	border-color: #000000;
+	width: 200px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+h1.pricing{	
+ 
+   margin-left: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+text-align:left;
+	}
+
+#pets
+	{
+	margin-left: 25px;
+text-align:left;
+width: 900px;
+
+	}
+h2.pricing{
+margin-bottom: 0px;
+text-align:left;
+}
+#container{
+margin-left: auto;
+margin-right: auto;
+max-width: 800px;
+background-color: #ffffff;
+padding: 15px;
+font-family: 'IM Fell English', serif;
+}
+
+#container2{
+margin-left: 50px;
+}
+
+p.pricing
+{
+margin-top: 5px;
+font-size: 20px;
+text-align:left;
+}
+
+.menu ul{
+	list-style:none;
+	-webkit-padding-start: 0px;
+}
+.menu a{
+	display:block;
+	padding-left:0px; /*SPACE FOR TOGGLE SIGN*/
+	font-size: 20px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menu .treeopen{
+	
+}
+
+.menu .treeclosed{
+	
+}
+
+@media (max-width:768px){
+	#container{
+		margin-left: 5px;
+	}
+	#container2{
+		margin-left: 5px;
+		}
+img.pricing{display:none;}
+#pets{
+	width: auto;
+}
+#about-body{
+display:none;
+}
+div.social-media-about{margin-left:0;margin-right:0;width:200px;}
+p.about-center{text-align:left;}
+#about{
+	position:absolute;
+	margin-top: -1%;
+	margin-left:45%
+}
+ .style_examples {
+    width: 200px;
+    margin:0 auto;
+    margin-top:20px;
+	position:relative;
+	margin-bottom:40px;
+	vertical-align:central;
+	text-align: center;
+	}
+    .style_examples_adr {
+    width: 400px;
+	margin:0 auto;
+	margin-top:20px;
+	position:relative;
+	margin-bottom:40px;
+    }
+}
+

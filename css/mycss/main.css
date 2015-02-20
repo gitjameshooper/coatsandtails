@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.homepage {max-width:1000px;margin-right:auto;margin-left:auto;background-color:#ffffff;}
+
+a{margin-right:-2;margin-left:-2;}
+
+.samples{margin-left:auto;margin-right:auto;max-width:800px;}
+
+.center_img {
+	display: block;
+	margin: 0 auto;
+}
+
+img.tile{width:33%;}
+.mobile_tiles{display:none;}
+
+
+.start-over{
+    float:right;
+    padding-right:60px;
+}
+
+p.about-c_t{max-width:700px;margin-right:auto;margin-left:auto;text-align:left}
+
+
+.title-caption{
+
+width:500px;
+margin-left:auto;
+margin-right:auto;
+}
+
+p.wall{margin-bottom:50px;width:500px;text-align:left;margin-right:auto;margin-left:auto;}
+
+img.wall{
+    max-width: 700px;
+    vertical-align:top;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}    
+	
+.upload-error{
+	 
+	text-align: center;
+margin: 10px;
+}
+.style_examples {
+    max-width: 500px;
+	margin-left:auto;
+  margin-right:auto;
+	margin-top:20px;
+	position:relative;
+	margin-bottom:40px;
+	}
+
+
+@media (max-width:768px){
+ .homepage_tiles{display:none;}
+ .mobile_tiles{display:block;width:300px;}
+ img.mobile{width:300px;margin-left:auto;margin-right:auto;}
+ 
+ img.wall{
+    max-width: 400px;
+    vertical-align:top;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}    
+  .start-over{
+    float:right;
+    padding-right:16px;
+}
+
+
+.style_examples {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  position:relative;
+  margin-bottom:40px;
+  }
+    
+   
+
+p.wall{
+    width: 300px;
+    vertical-align:top;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+img.wall{
+    width: 300px;
+    vertical-align:top;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+.title-caption{
+width:200px;
+margin-left:auto;
+margin-right:auto;
+}
+.fb-comments {
+    width: 100% !important;
+   }
+.fb-comments iframe[style] {
+   width: 100% !important;
+  }
+.fb-like-box {
+   width: 100% !important;
+  }
+.fb-like-box iframe[style] {
+   width: 100% !important;
+  }
+.fb-comments span {
+   width: 100% !important;
+  }
+.fb-comments iframe span[style] {
+   width: 100% !important;
+  }
+.fb-like-box span {
+   width: 100% !important;
+  }
+.fb-like-box iframe span[style] {
+   width: 100% !important;
+  }
+  
+}
+}
+
+

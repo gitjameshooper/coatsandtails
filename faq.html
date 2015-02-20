@@ -1,0 +1,115 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<link rel="stylesheet" href="faq.css" type="text/css" media="screen">
+<script>
+function initMenus() {
+  if (!document.getElementsByTagName) return;
+  var aMenus = document.getElementsByTagName("LI");
+  for (var i = 0; i < aMenus.length; i++) {
+    var mclass = aMenus[i].className;
+    if (mclass.indexOf("treenode") > -1) {
+      var submenu = aMenus[i].childNodes;
+      for (var j = 0; j < submenu.length; j++) {
+        if (submenu[j].tagName == "A") {
+          submenu[j].onclick = function() {
+            var node = this.nextSibling;
+            while (1) {
+              if (node != null) {
+                if (node.tagName == "UL") {
+                  var d = (node.style.display == "none")
+                  node.style.display = (d) ? "block" : "none";
+                  this.className = (d) ? "treeopen" : "treeclosed";
+                  return false;
+                }
+                node = node.nextSibling;
+              } else {
+                return false;
+              }
+            }
+            return false;
+          }
+          submenu[j].className = (mclass.indexOf("open") > -1) ? "treeopen" : "treeclosed";
+        }
+        if (submenu[j].tagName == "UL")
+          submenu[j].style.display = (mclass.indexOf("open") > -1) ? "block" : "none";
+      }
+    }
+  }
+}
+window.onload = initMenus;
+</script>
+<h1>Frequently Asked Questions</h1>
+<hr>
+<div class="footer-container">
+	<div class="box">
+		<div id="pets">
+			<h2>Portraits</h2>
+				<div class="menu">
+					<ul>
+						<li class="treenode"><a href="#">What types of portraits do you offer?</a>
+							<ul class=leaders>
+								<li>I offer two types of portraits: "Off the Rack" and "Tailored." As the name implies, Off the Rack portraits allow you to select from pre-made clothes - I just draw the face, or use a photograph that you upload. Tailored portraits are totally customized, so if you don't see an outfit that you want, then you can fill out a form to let me know what outfit you'd like.</li>
+							</ul>
+						<li class="treenode"><a href="#">Are your portraits photographs or drawings?</a>
+							<ul class=leaders>
+								<li>The clothes are drawings, but you have the option to have me draw the head onto the clothes, or have me photo-edit your photo onto them.</li>
+							</ul>
+						<li class="treenode"><a href="#">What outfit do you think I should choose?</a>
+							<ul class=leaders>
+								<li>The clothes are supposed to reflect your pet's personality, or at least comment on it in a perhaps ironical way. So it largely depends on your pet's personality. You can always take my Pet Personality quiz, which will provide recommendations based on my current collection of clothing options.</li>
+							</ul>
+				</div>
+			<h2>Orders</h2>
+				<div class="menu">
+					<ul>
+						<li class="treenode"><a href="#">How do I place an order?</a>
+							<ul class=leaders>
+								<li>First, look through my collections to see if there's an outfit suitable for the pet. If there is, then click on that collection, and then choose your clothes and accessories. You can then move through the tabs until you reach the cart, from which you can make your purchase.</li>
+							</ul>
+				</div>
+			<h2>Returns</h2>
+				<div class="menu">
+					<ul>
+						<li class="treenode"><a href="#">What items do you return?</a>
+							<ul class=leaders>
+								<li class="subsections">Frames and Merchandise<li>
+								<li>I will return frames and merchandise, as long as it was in the condition it was in when it got to you, and I will also issue refunds for portraits, <i>if I haven't started drawing it yet</i>. If you change your mind once I've already started working on it, I will issue a 50% refund. After the digital image has been approved, I do not issue refunds.</li>
+							</ul>
+</div>
+							</div>
+	</div>
+</div>
+<div class="footer-container">
+	<div class="box">
+		<div id="pets">
+			<h2>Shipping</h2>
+				<div class="menu">
+					<ul>
+						<li class="treenode"><a href="#">How are prints without frames shipped?</a>
+							<ul class=leaders>
+								<li>Prints 11"x14" and smaller are shipped flat. Larger prints are shipped rolled.</li>
+							</ul>
+						<li class="treenode"><a href="#">How are prints without frames shipped?</a>
+							<ul class=leaders>
+								<li>Prints 11"x14" and smaller are shipped flat. Larger prints are shipped rolled.</li>
+							</ul>
+				</div>
+			<h2>Payments</h2>
+				<div class="menu">
+					<ul>
+						<li class="treenode"><a href="#">How secure is your website?</a>
+							<ul class=leaders>
+								<li>This website is PCI compliant, which means it does not store any payment information, and all the channels used to process payments are completely secure.</li>
+							</ul>
+				</div>
+			<h2>Frames</h2>
+				<div class="menu">
+					<ul>
+						<li class="treenode"><a href="#">Are these photographs or drawings?</a>
+							<ul class=leaders>
+								<li>The clothes are drawings, but you have the option to have me draw the head onto the clothes, or have me photo-edit your photo onto them.</li>
+							</ul>
+				</div>
+
+		</div>
+	</div>
+</div>

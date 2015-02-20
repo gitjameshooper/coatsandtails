@@ -1,0 +1,382 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html, body, ul, ol, p {
+	margin:0px;
+	padding:0px;
+}
+#wrapper {
+	position:relative;
+	width:1100px;
+	margin:0 auto;
+	padding-top: 15px;
+}
+
+#social_media {
+	position: absolute;
+	top: 10px;
+	right: -94px;
+	z-index: 1;
+	width: 393px;
+}
+#social_media a {
+	float: left;
+	margin: 5px 10px 0px 0px;
+}
+#logo {
+	margin: 500px;
+	width: 800px;
+	display: block;
+}
+#main_nav {
+	background: url('graphics/background.png') no-repeat;
+	width: 837px;
+	height: 60px;
+	display: block;
+	margin: 0 auto;
+	margin-top:10px;
+	margin-bottom: 15px;
+}
+#main_nav li {
+	list-style: none;
+	float:left;
+}
+#main_nav li a:hover {
+	text-shadow: 0px 0px 3px #edf3f5;
+}
+#main_nav li a {
+	padding: 19px 28px;
+	display: block;
+	color:#fff;
+}
+
+.intro_blurbs {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #666;
+	font-weight: normal;
+	margin:0 auto;
+	text-align: center;
+	width: 660px;
+}
+
+.posterpet {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 25px;
+	color: #666;
+	font-weight: normal;
+	margin:0 auto;
+	text-align: center;
+	width: 660px;
+}
+
+.posterpet_options {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 25px;
+	color: #FFFFFF;
+	font-weight: normal;
+	margin:0 auto;
+	text-align: center;
+}
+
+.about_me_title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #000000;
+	font-weight: normal;
+	padding-right: 0px;
+	text-align: center;
+	margin: 15px 0px;
+}
+.about_me_text {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: normal;
+	text-align: justify;
+	width:775px;
+	margin: 0 auto;
+}
+#press_links {
+	width: 775px;
+	margin: 0 auto;
+}
+#press_links li {
+	list-style:none;
+}
+#press_links a {
+	color: #000;
+}
+#press_links a:hover {
+	text-decoration: underline;
+	color: #999;
+}
+.center_img {
+	display: block;
+	margin: 0 auto;
+}
+h3 {
+	text-align: center;
+}
+.pricing_content {
+	width:530px;
+	margin:0 auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+	color: #000000;
+	font-weight: normal;
+	text-align: justify;
+}
+.style_examples {
+	width: 815px;
+	margin:0 auto;
+	margin-top:20px;
+	position:relative;
+	margin-bottom:40px;
+	vertical-align:central;
+		text-align: center;
+
+	}
+
+.work {
+	width: 815px;
+	margin:0 auto;
+	margin-top:20px;
+	position:relative;
+	margin-bottom:40px;
+	text-align: center;
+
+	
+	}
+
+	
+	
+.style_examples_adr {
+	width: 1200px;
+	margin:0 auto;
+	margin-top:20px;
+	position:relative;
+	margin-bottom:40px;
+}
+.posterpet_examples {
+	width: 378px;
+	position:relative;
+	
+}
+#event {
+	position: absolute;
+	top: 0px;
+	left: -245px;
+}
+.start_here {
+	position: absolute;
+	top: -1255px;
+	right: -237px;
+}
+
+
+.startingat {
+	position: absolute;
+	top: 1px;
+	right: 830px;
+}
+
+.benefitting {
+	position: absolute;
+	top: 1px;
+	right: 500px;
+}
+
+
+/* Pet Orders */
+
+#order_pet_content {
+	padding-left: 50px;
+	overflow: hidden;
+}
+#order_pet_content h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+	margin: 0px;
+	
+}
+.heading1_pet {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0px;
+	align: center;
+}
+#order_pet_content h2 {
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: bold;
+font-size: 30px;
+border-bottom: 4px solid #000;
+width: 300px;
+}
+#order_pet_content textarea {
+	padding: 15px;
+	    resize: none; 
+		width: 100%;
+}
+.form_titles {
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 20px;
+	display: block;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.form_titles_clarification {
+	font-weight:100;
+	font-size: 14px;
+	display: block;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color:#999;
+	
+
+}
+
+.privacy {
+	font-weight:100;
+	font-size: 14px;
+		float:right;
+	text-align: right;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color:#999;
+		padding: 5px 14px;
+
+	
+
+}
+
+.aboutprint {
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+}
+
+.christmas {
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	color:#f00;
+}
+
+#harleqin-img-1  {
+	float: right;
+	margin-right: 20px;
+	width: 350px;
+}
+#harleqin-img-2 {
+	float: right;
+margin-top: 20px;
+width: 500px;
+}
+#brindle-fawn-img-1 {
+width: 300px;
+float: right;
+margin-top: 50px;
+
+}
+
+#labrador-img-1 {
+width: 400px;
+float: right;
+margin-top: 70px;
+margin-right: 25px;
+}
+
+#brindle-fawn-img-2 {
+width: 380px;
+float: right;
+margin-top: 60px;
+}
+#brindle-fawn-img-3 {
+width: 380px;
+float: right;
+margin-top: 30px;
+}
+#black-ticked-img-1 ,#black-ticked-img-2,#black-ticked-img-3 {
+width: 380px;
+float: right;
+margin-top: 60px;
+}
+#blue-merle-img-1 {
+width: 380px;
+float: right;
+margin-top: 60px;
+}
+#blue-merle-img-2 , #blue-merle-img-3 {
+width: 380px;
+float: right;
+margin-top: 60px;
+}
+#num_pets_tag {
+	color:#666666;
+	font-size:18px;
+	margin-bottom: 20px;
+	white-space:nowrap;
+	text-align: left;
+}
+#num_pets_tag a {
+	text-decoration:underline;
+	color:#666666;
+	font-size:18px;
+}
+
+ 
+ 
+
+#order_pet_content {
+	width:850px;
+	margin:0 auto;
+}
+.required {
+	color:red !important;
+	color: red !important;
+	display: inline-block;
+	margin-left: 5px;
+}
+#pet_form input[type="file"] {
+	display:block;
+	margin: 5px 0px;
+}
+#pet_form input[type="text"] {
+	width: 250px;
+	display:block;
+	padding: 4px 5px;
+}
+#pet_form input[type="submit"] {
+	float:right;
+	font-weight:bold;
+	display: block;
+	background: #222222;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	border: none;
+	padding: 5px 14px;
+	cursor: pointer;
+	margin: 20px 36px 0px 0px;
+}
+#pet_form input[type="submit"]:hover {
+	background: #000;
+}
+ 
+#footer {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #000000;
+	font-weight: normal;
+	padding-right: 0px;
+	width: 320px;
+	margin:0 auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}

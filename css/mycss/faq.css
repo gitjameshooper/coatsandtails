@@ -1,0 +1,163 @@
+.footer-container-faq{
+	width: 700px;
+	border: 0px;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-top: 13px;
+	margin-bottom: 12px;
+	
+
+	
+	
+}
+
+.box-faq{
+
+padding-left: 0px;
+padding-top: 10px;
+max-width:700px;
+margin-right:auto;
+margin-left:auto;
+margin-bottom: 25px;
+
+}
+
+.inner-faq{
+	
+}
+
+li.faq
+{
+list-style: none;
+margin-left: 0px;
+font-size: 16px;
+padding-top:5px;
+}
+
+li.treenode-faq
+{
+list-style: none;
+margin-left: 0px;
+font-size: 20px;
+padding-top:5px;
+
+}
+
+
+li.subsections-faq
+{
+list-style: none;
+margin-left: 0px;
+font-size: 20px;
+padding-top:5px;
+
+}
+ul.leaders-faq
+{
+list-style: none;
+margin-left: 15px;
+font-size: 16px;
+padding-top:5px;
+
+}
+
+
+ul.faq
+{
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+margin-left: 0px;
+padding: 0px;
+}
+
+
+
+h1.faq{	
+   
+   margin-left: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	text-align:left;	}
+
+#pets-faq
+	{
+	margin-left: 25px;
+	margin-top: 0;
+	}
+h2.faq{
+
+margin-bottom: 0px;
+font-size: 16px;
+text-align:left;
+}
+
+
+#container-faq{
+margin-left: auto;
+margin-right: auto;
+max-width: 800px;
+
+}
+
+#container2-faq{
+margin-left: 50px;
+}
+
+p.faq
+{
+margin-top: 5px;
+
+font-size: 20px;
+}
+.menu-faq {margin-left: 10px;}
+.menu-faq ul{
+	list-style:none;
+	-webkit-padding-start: 0px;
+}
+.menu-faq .treeopen-faq{
+	background:url("open.png") left center no-repeat;
+	
+	
+	color: #666;
+	
+	
+}
+
+.menu-faq .treeclosed-faq{
+	background:url("closed.png") left center no-repeat;
+	
+	color: #666;
+	
+}
+
+
+@media (max-width:768px){
+
+	
+	#container{
+		margin-left: 5px;
+	}
+	#container2{
+		margin-left: 5px;
+		}
+img.pricing{display:none;}
+
+.box-faq{
+padding-left: 0px;
+padding-top: 10px;
+
+margin-right:auto;
+margin-left:auto;
+margin-bottom: 25px;
+
+}
+}
+
+
+
