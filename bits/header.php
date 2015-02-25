@@ -130,7 +130,6 @@
 					<ul class="dropdown-menu" role="menu">
     					<li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" id="contact_link">Contact</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>about.php">About Coat & Tails</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>info_rescue.php">Fundraisers</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>info_artists.php">Artist Application</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>faq.php">FAQ</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>pricing.php">Pricing</a></li>
@@ -141,7 +140,17 @@
 						<li role="presentation" class="dropdown-header">&nbsp;</li>
 						<li role="presentation" class="dropdown-header">&nbsp;</li>
                         <li role="presentation" class="dropdown-header">&nbsp;</li>
-    					<li role="presentation" class="dropdown-header">&nbsp;</li>
+					</ul>
+				</li>
+				<li>
+					<a href="<?php echo $BASE_URL;?>info_rescue.php" class="dropdown-toggle">Philanthropomorphy</a>
+					<ul class="dropdown-menu" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>info_rescue.php">Fundraisers</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>photo_contest.php">Photo Contest</a></li>
+					</ul>
+					<ul class="dropdown-menu full-width">
+						<li role="presentation" class="dropdown-header">&nbsp;</li>
+						<li role="presentation" class="dropdown-header">&nbsp;</li>
 					</ul>
 				</li>
 			</ul>

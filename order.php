@@ -33,8 +33,12 @@ commonHeaders();
     
 <div id="order_pet_content">
 <?php 
-
+ 
+if(!isset($_GET['pet_num'])){
+	$pet_num = 1;
+}else{
  	$pet_num = $_GET['pet_num'];
+ }
 	 
            
  if($pet_num == 1 || $pet_num == NULL ){     
