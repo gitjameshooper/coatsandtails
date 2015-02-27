@@ -14,7 +14,7 @@ commonHeaders();
 <head>
     <?php echo commonMetaHeader();?>
     <link href="http://www.coatandtails.com/css/mycss/main_v1.css" rel="stylesheet" />
-    <script type="application/javascript" language="javascript" src="js/extraform.js"></script>
+    <script type="application/javascript" language="javascript" src="js/extraform-contest.js"></script>
 </head>
 <body class="f photo_draw">
 <?php include_once(dirname(__FILE__) . '/bits/header.php');?>
@@ -39,8 +39,9 @@ commonHeaders();
   <img id="black-ticked-img-1" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
    
  
- <form id="pet_form" name="pet_form" action="/complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
-    <input type="hidden" name="num_pets"  value="1" />
+ <form id="pet_form" name="pet_form" action="photo_contest_complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
+    <input type="hidden" name="num_pets"  value="photo-contest" />
+    <input type="hidden" name="photo_contest"  value="1" />
     <input type="hidden" name="location"  value="http://www.coatandtails.com/product.php?id=14"  />
 	<label class="form_titles" for="full_name">Your Name<span class="required">*</span></label>
 	<input type="text" name="full_name" id="full_name" maxlength="30" placeholder="e.g. John Smith" />
