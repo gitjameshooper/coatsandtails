@@ -11,8 +11,8 @@ commonHeaders();
 ?><html lang="en">
 <head>
     <?php echo commonMetaHeader();?>
-        <link href="http://www.coatandtails.com/css/mycss/main_v1.css" rel="stylesheet" />
-         <link href="http://www.coatandtails.com/css/mycss/lightbox.css" rel="stylesheet" />
+        <link href="css/mycss/main_v1.css" rel="stylesheet" />
+         <link href="css/mycss/lightbox.css" rel="stylesheet" />
 
 <script type="text/javascript" src="/js/jquery-min.js"></script>
 <script type="text/javascript" src="/js/lightbox.js"></script>

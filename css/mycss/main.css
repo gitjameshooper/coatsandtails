@@ -26,9 +26,11 @@ p.about-c_t{max-width:700px;margin-right:auto;margin-left:auto;text-align:left}
 
 .title-caption{
 
-width:500px;
-margin-left:auto;
-margin-right:auto;
+max-width:500px;
+margin: 0 auto;
+width: 100%;
+padding: 0 5%;
+ 
 }
 
 p.wall{margin-bottom:50px;width:500px;text-align:left;margin-right:auto;margin-left:auto;}
@@ -104,11 +106,7 @@ img.wall{
     margin-right: auto;
 }    
 
-.title-caption{
-width:200px;
-margin-left:auto;
-margin-right:auto;
-}
+ 
 .fb-comments {
     width: 100% !important;
    }
