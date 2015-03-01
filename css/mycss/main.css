@@ -18,6 +18,15 @@ border-bottom: 1px solid #efefef;
 }
 */
  
+@media screen and (max-width: 1075px) {
+ .navbar-nav li .dropdown-toggle{
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 17px;
+  }
+}
+
+ 
 .homepage {max-width:1000px;margin-right:auto;margin-left:auto;background-color:#ffffff;}
 
 a{margin-right:-2;margin-left:-2;}
