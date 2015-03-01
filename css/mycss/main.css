@@ -1,6 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
 
+ /*   possible fixes
+body{
+  overflow-x: hidden;
+}
+.container-fluid {
+margin-right: auto;
+margin-left: auto;
+padding-left: 15px;
+padding-right: 15px;
+position: fixed;
+width: 100%;
+background: #fff;
+z-index: 10;
+border-bottom: 1px solid #efefef;
+}
+*/
+ 
 .homepage {max-width:1000px;margin-right:auto;margin-left:auto;background-color:#ffffff;}
 
 a{margin-right:-2;margin-left:-2;}
