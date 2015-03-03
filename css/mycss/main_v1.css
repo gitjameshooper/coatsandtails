@@ -327,7 +327,7 @@ float: right;
 margin-top: 60px;
 }
 #black-ticked-img-1 ,#black-ticked-img-2,#black-ticked-img-3 {
-max-width: 380px;
+margin-top: 10px;
 width: 100%;
 float: right;
  
@@ -409,10 +409,11 @@ float: right;
 		 
 		display: block;
 		width: 100%;
-		margin: auto;
+		margin: 10px auto 0;
 	}
 	#order_pet_content h1{
 		text-align: center;
+		font-size: 24px;
 	}
 	#num_pets_tag {
 		text-align: center;
@@ -464,6 +465,10 @@ float: right;
 	font-size: 30px;
 	text-align: left;
 }
+ 
+#order_pet_content.photo_contest h1.mobile{
+	display: none;
+}
 #order_pet_content .float-right{
 	float: right;
 	width: 50%;
@@ -474,7 +479,35 @@ float: right;
 #order_pet_content.photo_contest .terms-conditions, #order_pet_content.photo_contest #pet_form input[type="submit"]{
  float: left;
 }
+#order_pet_content .photo-rec-tagline{
+	padding-left: 30px;
+}
+#order_pet_content .photo-rec-tagline a{
+     color: #333;
+     text-decoration: underline;
+	}
 @media screen and (max-width: 800px) { 
+#order_pet_content.photo_contest h1, #order_pet_content .float-left h1{
+	display: none;
+}
+#order_pet_content.photo_contest h1.mobile{
+	display: block;
+	font-size: 24px;
+}
+#order_pet_content .photo-rec-tagline{
+	font-size: 15px;
 
+	}
+#order_pet_content .float-right {
+float: left;
+width: 100%;
+border-left: 0;
+padding-left: 0;
+}
+#order_pet_content .float-left {
+float: left;
+width: 100%;
+margin-top: 20px;
+}
 	}
 

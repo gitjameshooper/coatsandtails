@@ -50,7 +50,7 @@ if(isset($_POST['submit'],$_POST['full_name'],$_POST['email_address'])) {
 			 
 
   				// Send Email
-			$sent = @mail('bryce.dishongh@gmail.com', 'COAT&TAILS: '.$_POST['full_name'].' Photo Contest Entry', $msg, $headers);
+			// $sent = @mail('bryce.dishongh@gmail.com', 'COAT&TAILS: '.$_POST['full_name'].' Photo Contest Entry', $msg, $headers);
 	      
 		}
 		   
@@ -87,13 +87,14 @@ if(isset($_POST['submit'],$_POST['full_name'],$_POST['email_address'])) {
 			 $pet_name = str_replace(' ','',$_POST['pet_name_1']);
 			 
 			 if($_POST['num_pets'] == 'photo-contest'){
-			 	$target_path = $_SERVER['DOCUMENT_ROOT'].'/upload/photo-contest/';
+			 	$target_path = $_SERVER['DOCUMENT_ROOT'].'/coatsandtails/upload/photo-contest/';
 			 	$target_path = $target_path.$full_name.'-'.$pet_name.'-'.basename( $file['name']); 
 			 	if(!move_uploaded_file($file['tmp_name'], $target_path)) {
 					echo '<p class="upload-error">There was an error uploading the picture '.basename( $file['name']).'. Please Try Again Later</p>';
 				}else{
 					 echo "<h2>Thank You! Your Photo has been Submitted for the contest</h2>";
 				}
+			}
  
 	 	}
 		
