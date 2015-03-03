@@ -39,7 +39,7 @@ commonHeaders();
   <div class="float-right">
 		<h1>Photo Recommendations</h1>
 		<h1 class="mobile">Submission Form</h1>
-		<p class="photo-rec-tagline">Below are recommendations. For more examples of dos and don\'ts, see my <a href="" />Wall of Fame and & Shame</a></p>
+		<p class="photo-rec-tagline">Below are recommendations. For more examples of dos and don\'ts, see my <a href="http://www.coatandtails.com/wall.php" />Wall of Fame and & Shame</a></p>
 		<img id="black-ticked-img-1" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
 
 	</div>
