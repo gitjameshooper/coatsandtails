@@ -13,7 +13,7 @@ commonHeaders();
 <html lang="en">
 <head>
     <?php echo commonMetaHeader();?>
-    <link href="http://www.coatandtails.com/css/mycss/main_v1.css" rel="stylesheet" />
+    <link href="css/mycss/main_v1.css" rel="stylesheet" />
     <script type="application/javascript" language="javascript" src="js/extraform.js"></script>
 </head>
 <body class="f photo_draw">
@@ -43,8 +43,9 @@ if(!isset($_GET['pet_num'])){
            
  if($pet_num == 1 || $pet_num == NULL ){     
   echo '<h1>Custom Portrait: 1 Pet</h1>
+   <p id="num_pets_tag">Want <strong>two</strong> pets in one portrait? Click <a href="order.php?pet_num=2">Here.</a></p>
   <img id="black-ticked-img-1" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
-  <p id="num_pets_tag">Want <strong>two</strong> pets in one portrait? Click <a href="order.php?pet_num=2">Here.</a></p>
+ 
  
  <form id="pet_form" name="pet_form" action="/complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
     <input type="hidden" name="num_pets"  value="1" />
@@ -73,15 +74,17 @@ if(!isset($_GET['pet_num'])){
 	
 	<p class="form_titles">Clothing/Accessories</p>
 	<textarea name="clothing_1" cols="95" rows="15"   placeholder="Enter any ideas you have about clothing accessories you\'d like to include on your portrait. If you\'d rather leave it up to me, leave this field blank."></textarea>
-	
-<input type="submit" name="submit" onClick="return checkfields(1);" value="Submit">
+	<input type="submit" name="submit" onClick="return checkfields(1);" value="Submit">
+	<div class="terms-conditions">By uploading a photo, you are agreeing to <a href="javascript:void(0);" class="t_c">these terms and conditions</a>.</div>
+
 </form>
  ';
  
 }else if($pet_num == 2){
 	 echo '<h1>Custom Portrait: 2 Pets</h1>
+	 <p id="num_pets_tag">Want <strong>three</strong> pets in one portrait? Click <a href="order.php?pet_num=3">Here.</a></p>
   <img id="black-ticked-img-2" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
- <p id="num_pets_tag">Want <strong>three</strong> pets in one portrait? Click <a href="order.php?pet_num=3">Here.</a></p>
+ 
  
  <form id="pet_form" name="pet_form" action="/complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
     <input type="hidden" name="num_pets"  value="2" />
@@ -135,15 +138,17 @@ if(!isset($_GET['pet_num'])){
 	
 	<p class="form_titles">Clothing/Accessories</p>
 	<textarea name="clothing_2" cols="95" rows="15"   placeholder="Enter any ideas you have about clothing accessories you\'d like to include on your portrait. If you\'d rather leave it up to me, leave this field blank."></textarea>
-	
-<input type="submit" name="submit" onClick=" return checkfields(2);" value="Submit">
+	<input type="submit" name="submit" onClick=" return checkfields(2);" value="Submit">
+	<div class="terms-conditions">By uploading a photo, you are agreeing to <a href="javascript:void(0);" class="t_c">these terms and conditions</a>.</div>
+
 </form>
  ';
  
 }else if($pet_num == 3){
 	 echo '<h1>Custom Portrait: 3 Pets</h1>
+	 <p id="num_pets_tag">Want <strong>one</strong> pet in one portrait? Click <a href="order.php?pet_num=1">Here.</a></p>
   <img id="black-ticked-img-3" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
-  <p id="num_pets_tag">Want <strong>one</strong> pet in one portrait? Click <a href="order.php?pet_num=1">Here.</a></p>
+  
  
  
  <form id="pet_form" name="pet_form" action="/complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
@@ -219,9 +224,9 @@ if(!isset($_GET['pet_num'])){
 	
 	<p class="form_titles">Clothing/Accessories</p>
 	<textarea name="clothing_3" cols="95" rows="15"   placeholder="Enter any ideas you have about clothing accessories you\'d like to include on your portrait. If you\'d rather leave it up to me, leave this field blank."></textarea>
-	
-	
-<input type="submit" name="submit" onClick=" return checkfields(3);" value="Submit">
+	<input type="submit" name="submit" onClick=" return checkfields(3);" value="Submit">
+	<div class="terms-conditions">By uploading a photo, you are agreeing to <a href="javascript:void(0);" class="t_c">these terms and conditions</a>.</div>
+
 </form>
  ';
 	

@@ -13,7 +13,7 @@ commonHeaders();
 <html lang="en">
 <head>
     <?php echo commonMetaHeader();?>
-    <link href="http://www.coatandtails.com/css/mycss/main_v1.css" rel="stylesheet" />
+    <link href="css/mycss/main_v1.css" rel="stylesheet" />
     <script type="application/javascript" language="javascript" src="js/extraform-contest.js"></script>
 </head>
 <body class="f photo_draw">
@@ -31,15 +31,12 @@ commonHeaders();
     
  
     
-<div id="order_pet_content">
+<div id="order_pet_content" class="photo_contest">
 <?php 
  
     
-  echo '<h1>Submission Form</h1>
-  <img id="black-ticked-img-1" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
-   
- 
- <form id="pet_form" name="pet_form" action="photo_contest_complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
+  echo '<div class="float-left"><h1>Submission Form</h1>
+  	<form id="pet_form" name="pet_form" action="photo_contest_complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
     <input type="hidden" name="num_pets"  value="photo-contest" />
     <input type="hidden" name="photo_contest"  value="1" />
     <input type="hidden" name="location"  value="http://www.coatandtails.com/product.php?id=14"  />
@@ -54,9 +51,15 @@ commonHeaders();
 	<label class="form_titles" for="pet_name_1">Pet Name<span class="required">*</span></label>
 	<input type="text" name="pet_name_1" id="pet_name_1" maxlength="30" placeholder="e.g. spike" />
 	
-	  
+	<div class="terms-conditions">By uploading a photo, you are agreeing to <a href="javascript:void(0);" class="t_c">these terms and conditions</a>.</div>
 	<input type="submit" name="submit" onClick="return checkfields(1);" value="Submit">
-</form>
+</form></div>
+	<div class="float-right">
+		<h1>Photo Recommendations</h1>
+		<p>Below are recommendations. For more examples of dos and don\'ts, see my <a href="" />Wall of Fame and & Shame</a></p>
+		<img id="black-ticked-img-1" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
+
+	</div>
  ';
  
    

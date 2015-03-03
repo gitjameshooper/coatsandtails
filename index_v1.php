@@ -14,8 +14,8 @@ commonHeaders();
         <link href="css/mycss/main_v1.css" rel="stylesheet" />
          <link href="css/mycss/lightbox.css" rel="stylesheet" />
 
-<script type="text/javascript" src="/js/jquery-min.js"></script>
-<script type="text/javascript" src="/js/lightbox.js"></script>
+<script type="text/javascript" src="js/jquery-min.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
 
  
  
@@ -56,35 +56,35 @@ function MM_swapImage() { //v3.0
             <p class="title-caption">In addition to a partially customized portrait, you can also get a wholly customized portrait. The difference is that I work closely with you to create some new theme or concept that I don't have in the Men and Women sections, which contain pre-drawn clothes and accessories. This section shows examples of totally customized portraits.</p>     </div>
     </div>
   <div class="samples">
-    <a href="samples/25.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/25.jpg" width="200" height="200" border="0" /> </a>
-    <a href="samples/26.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/26.jpg" width="200" height="200" border="0" /> </a>
-    <a href="samples/24.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/24.jpg" width="200" height="200" border="0" /></a>
-    <a href="samples/23.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/23.jpg" width="200" height="200" border="0" /> </a>
+    <a href="samples/25.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/25.jpg" width="200" height="200" border="0" /> </a>
+    <a href="samples/26.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/26.jpg" width="200" height="200" border="0" /> </a>
+    <a href="samples/24.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/24.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/23.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/23.jpg" width="200" height="200" border="0" /> </a>
     
-    <a href="samples/22.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/22.jpg" width="200" height="200" border="0" /> </a>
-    <a href="samples/21.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/21.jpg" width="200" height="200" border="0" /> </a>
-    <a href="samples/20.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/20.jpg" width="200" height="200" border="0" /></a>
-    <a href="samples/19.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/19.jpg" width="200" height="200" border="0" /> </a>
+    <a href="samples/22.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/22.jpg" width="200" height="200" border="0" /> </a>
+    <a href="samples/21.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/21.jpg" width="200" height="200" border="0" /> </a>
+    <a href="samples/20.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/20.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/19.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/19.jpg" width="200" height="200" border="0" /> </a>
     
-    <a href="samples/18.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/18.jpg" width="200" height="200" border="0" /></a>
-    <a href="samples/17.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/17.jpg" width="200" height="200" border="0" /> </a>
-    <a href="samples/16.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/16.jpg" width="200" height="200" border="0" /></a>
-    <a href="samples/15.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/15.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/18.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/18.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/17.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/17.jpg" width="200" height="200" border="0" /> </a>
+    <a href="samples/16.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/16.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/15.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/15.jpg" width="200" height="200" border="0" /></a>
     
-    <a href="samples/14.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/14.jpg" width="200" height="200" border="0" /> </a>
-    <a href="samples/13.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/13.jpg" width="200" height="200" border="0" /></a>
-    <a href="samples/12.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/12.jpg" alt="" width="200" height="200" border="0" /></a>
-    <a href="samples/11.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/11.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/14.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/14.jpg" width="200" height="200" border="0" /> </a>
+    <a href="samples/13.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/13.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/12.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/12.jpg" alt="" width="200" height="200" border="0" /></a>
+    <a href="samples/11.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/11.jpg" width="200" height="200" border="0" /></a>
     
-    <a href="samples/10.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/10.jpg" width="200" height="200" border="0" /> </a>
-    <a href="samples/9.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/9.jpg" width="200" height="200" border="0" /></a>
-    <a href="samples/8.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/8.jpg" alt="" width="200" height="200" border="0" /></a>
-    <a href="samples/7.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/7.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/10.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/10.jpg" width="200" height="200" border="0" /> </a>
+    <a href="samples/9.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/9.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/8.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/8.jpg" alt="" width="200" height="200" border="0" /></a>
+    <a href="samples/7.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/7.jpg" width="200" height="200" border="0" /></a>
     
-    <a href="samples/6.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/6.jpg" width="200" height="200" border="0" /> </a>
-    <a href="samples/5.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/5.jpg" width="200" height="200" border="0" /></a>
-    <a href="samples/4.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/4.jpg" alt="" width="200" height="200" border="0" /></a>
-    <a href="samples/3.jpg" data-lightbox="lightbox[digital]"><img src="/samples/small/3.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/6.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/6.jpg" width="200" height="200" border="0" /> </a>
+    <a href="samples/5.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/5.jpg" width="200" height="200" border="0" /></a>
+    <a href="samples/4.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/4.jpg" alt="" width="200" height="200" border="0" /></a>
+    <a href="samples/3.jpg" data-lightbox="lightbox[digital]"><img src="samples/small/3.jpg" width="200" height="200" border="0" /></a>
   </div> 
    
    

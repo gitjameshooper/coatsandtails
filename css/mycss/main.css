@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
- /*   possible fixes
-body{
+  
+/*body{
   overflow-x: hidden;
 }
-.container-fluid {
+.main-navbar .container-fluid {
 margin-right: auto;
 margin-left: auto;
 padding-left: 15px;
@@ -17,13 +17,21 @@ z-index: 10;
 border-bottom: 1px solid #efefef;
 }
 */
- 
+
+
+@media screen and (max-width: 990px) { 
+ .nav.navbar-nav {
+  
+  margin: 11.25px 0 11.25px -10px;
+  }
+}
 @media screen and (max-width: 1075px) {
  .navbar-nav li .dropdown-toggle{
     padding-left: 9px;
     padding-right: 9px;
     font-size: 17px;
   }
+  
 }
 
  
