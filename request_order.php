@@ -44,7 +44,7 @@ if(!isset($_GET['pet_num'])){
  if($pet_num == 1 || $pet_num == NULL ){     
   echo '<h1>Custom Portrait: 1 Pet</h1>
    <p id="num_pets_tag">Want <strong>two</strong> pets in one portrait? Click <a href="request_order.php?pet_num=2">Here.</a></p>
-  <img id="black-ticked-img-1" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
+  <img class="side-portrait" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
  
  
  <form id="pet_form" name="pet_form" action="/complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
@@ -83,7 +83,7 @@ if(!isset($_GET['pet_num'])){
 }else if($pet_num == 2){
 	 echo '<h1>Custom Portrait: 2 Pets</h1>
 	 <p id="num_pets_tag">Want <strong>three</strong> pets in one portrait? Click <a href="request_order.php?pet_num=3">Here.</a></p>
-  <img id="black-ticked-img-2" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
+  <img class="side-portrait" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
  
  
  <form id="pet_form" name="pet_form" action="/complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
@@ -147,7 +147,7 @@ if(!isset($_GET['pet_num'])){
 }else if($pet_num == 3){
 	 echo '<h1>Custom Portrait: 3 Pets</h1>
 	 <p id="num_pets_tag">Want <strong>one</strong> pet in one portrait? Click <a href="request_order.php?pet_num=1">Here.</a></p>
-  <img id="black-ticked-img-3" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
+  <img class="side-portrait" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
   
  
  

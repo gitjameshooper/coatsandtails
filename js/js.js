@@ -26,8 +26,19 @@ $(document).ready(function(){
 	var upload_page = $('body.upload').text();
 	var cart_page = $('body.cart').text();
 
+
+	$('.navbar-nav.main > li').hover(function(){
+		 
+		var menuHeight = $(this).find('.dropdown-menu').height();
+		 
+          $('.gray-area').height(menuHeight + 10);
+	},function(){
+		window.console.log($('.gray-area').height());
+		 $('.gray-area').height(0);
+	});
+
 	if(f_page.length > 0){
-		$('.dropdown-menu>li>a').mouseover(function(){
+		$('.dropdown-menu > li > a').mouseover(function(){
 			if(typeof $(this).attr('data-img') !== "undefined"){
 				var img_src = $(this).attr('data-img')
 				$('.cover-banner > img', $(this).parent().parent()).attr('src', img_src);

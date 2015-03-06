@@ -12,7 +12,7 @@
 			</a>
 		</div>
 		<div class="navbar-collapse collapse" style="height: 1px;">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav main">
 				<?php
 				if($mens_collections_count > 0){
 					?>
@@ -37,16 +37,7 @@
 								</div>
 							</li>
 						</ul>
-						<ul class="dropdown-menu full-width grouped">
-							<li role="presentation" class="dropdown-header">&nbsp;</li>
-							<li role="presentation" class="dropdown-header">&nbsp;</li>
-							<?php
-							$i = 0;
-							for($i;$i<$mens_collections_count;$i++){
-								echo '<li role="presentation" class="dropdown-header">&nbsp;</li>';
-							}
-							?>
-						</ul>
+						 
 					</li>
 					<?php
 				}
@@ -73,16 +64,7 @@
 								</div>
 							</li>
 						</ul>
-						<ul class="dropdown-menu full-width grouped">
-							<li role="presentation" class="dropdown-header">&nbsp;</li>
-							<li role="presentation" class="dropdown-header">&nbsp;</li>
-							<?php
-							$i = 0;
-							for($i;$i<$womens_collections_count;$i++){
-								echo '<li role="presentation" class="dropdown-header">&nbsp;</li>';
-							}
-							?>
-						</ul>
+						 
 					</li>
 					<?php
 				}
@@ -94,11 +76,7 @@
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>gallery.php">View Gallery</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>request_order.php">Submit your Request</a></li>
 					</ul>
-					<ul class="dropdown-menu full-width">
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-					</ul>
+					 
 				</li>
 				<li>
 					<a href="<?php echo $BASE_URL;?>merchandise.php" class="dropdown-toggle">Merchandise</a>
@@ -114,16 +92,7 @@
 						}
 						?>
 					</ul>
-					<ul class="dropdown-menu full-width">
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-						<?php
-						$i = 0;
-						for($i;$i<$merchandise_count;$i++){
-							echo '<li role="presentation" class="dropdown-header">&nbsp;</li>';
-						}
-						?>
-					</ul>
+					 
 				</li>
 				<li>
 					<a href="<?php echo $BASE_URL;?>about.php" class="dropdown-toggle">Info</a>
@@ -134,13 +103,7 @@
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>faq.php">FAQ</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>pricing.php">Pricing</a></li>
 					</ul>
-					<ul class="dropdown-menu full-width">
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-                        <li role="presentation" class="dropdown-header">&nbsp;</li>
-					</ul>
+					 
 				</li>
 				<li>
 					<a href="<?php echo $BASE_URL;?>fundraisers.php" class="dropdown-toggle">Philanthropomorphy</a>
@@ -148,26 +111,24 @@
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>fundraisers.php">Fundraisers</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>photo_contest.php">Photo Contest</a></li>
 					</ul>
-					<ul class="dropdown-menu full-width">
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-						<li role="presentation" class="dropdown-header">&nbsp;</li>
-					</ul>
+					 
 				</li>
 			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li>
+			<div id="social-icons" class="navbar-right">
+				 
 					<a id="cart-link" href="<?php echo $BASE_URL;?>cart.php" id="cart_link">
 						<img src="<?php echo $CDN_IMGS;?>img/cart-icon.png">
 					</a>
-				</li>
-				<li class="divider"></li>
-				<li>
+				 
+				<span class="divider"></span>
+				 
 					<a href="http://www.facebook.com/pages/Coat-and-Tails-Pet-Portraits/128628673951387" class="social_icon" target="_blank"><img src="<?php echo $CDN_IMGS;?>img/facebook.png"></a>
 					<a href="http://ahotbubbleofpoison.tumblr.com/" class="social_icon" target="_blank"><img src="<?php echo $CDN_IMGS;?>img/tumblr.png"></a>
 					<a href="http://instagram.com/coatandtails/" class="social_icon" target="_blank"><img src="<?php echo $CDN_IMGS;?>img/ig.png"></a>
 					<a href="https://twitter.com/coatandtails" class="social_icon" target="_blank"><img src="<?php echo $CDN_IMGS;?>img/twitter.png"></a>
-				</li>
-			</ul>
+				 
+			</div>
 		</div>
 	</div>
 </div>
+<div class="gray-area"></div>

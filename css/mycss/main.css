@@ -1,22 +1,73 @@
 @charset "UTF-8";
 /* CSS Document */
 
-  
+/*
 body{
   overflow-x: hidden;
 }
- 
+*/
+
  /* header */
-
-a#cart-link {
+.gray-area{
+  position: absolute;
+  z-index: 1;
+  top: 70px;
+  width: 100%;
+  height: 0px;
+  background: #eee;
+}
+.navbar a:focus {
+  color: #000 !important;
+  border: none;
+  outline: none !important;
+}
+.nav > li > a.social_icon {
   display: inline-block;
-  float: left;
+  padding: 24px 5px;
+}
+.dropdown-menu{
+   transition: none !important;
+}
+ 
+ 
+#social-icons{
+  width: auto;
+    padding-left: 0;
+    margin-right: -15px;
+}
+#social-icons a{
+margin: 0;
+display: inline-block;
+padding: 25px 4px;
+float: left;
+
+}
+#social-icons a:hover, #social-icons a:focus {
+text-decoration: none;
+background-color: #eee;
+}
+#social-icons a img{
+  height: 22px;
 }
 
-a#cart-link img{
-  height: 20px;
+#social-icons .divider {
+width: 1px;
+margin: 19px 3px;
+overflow: hidden;
+background-color: #000;
+height: 32px;
+float: left;
 }
+#cart-link {
+ 
+display: inline-block;
+float: left;
 
+}
+#social-icons #cart-link img{
+height: 20px ;
+  }
+/* Content */
 .homepage {
   max-width:1000px;
   margin-right:auto;
@@ -86,6 +137,8 @@ img.wall{
 
 
 @media and (max-width:768px){
+
+
  .homepage_tiles{display:none;}
  .mobile_tiles{display:block;width:300px;}
  img.mobile{width:300px;margin-left:auto;margin-right:auto;}
@@ -221,7 +274,7 @@ color:#999;
 
  
 
-#black-ticked-img-1,#black-ticked-img-2,#black-ticked-img-3 {
+.side-portrait {
 margin-top:10px;
 width:100%;
 float:right;
@@ -292,9 +345,7 @@ font-size:30px;
 text-align:left;
 }
 
-#order_pet_content.photo_contest h1.mobile {
-display:none;
-}
+ 
 
 #order_pet_content .float-right {
 float:right;
@@ -317,7 +368,7 @@ text-decoration:underline;
 }
 
 @media screen and (max-width: 800px){
-  #black-ticked-img-1,#black-ticked-img-2,#black-ticked-img-3 {
+  .side-portrait {
   max-width:380px;
   float:none;
   display:block;
@@ -329,7 +380,9 @@ text-decoration:underline;
   text-align:center;
   font-size:24px;
   }
-
+  #order_pet_content .float-right {
+      display: none;
+  }
   #num_pets_tag {
   text-align:center;
   }
@@ -338,10 +391,7 @@ text-decoration:underline;
   display:none;
   }
 
-  #order_pet_content.photo_contest h1.mobile {
-  display:block;
-  font-size:24px;
-  }
+  
 
   #order_pet_content .photo-rec-tagline {
   font-size:15px;
@@ -373,6 +423,10 @@ text-decoration:underline;
   
   margin: 11.25px 0 11.25px -10px;
   }
+  .gray-area{
+  display: none !important
+  }
+
 }
 @media screen and (max-width: 480px){
   .samples {
