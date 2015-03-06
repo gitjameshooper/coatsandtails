@@ -263,6 +263,6 @@ commonHeaders();
 	window.init.base_url="<?php echo $BASE_URL;?>";
 	window.can_leave=<?php echo json_encode($order_pet_query_count > 1 ? false : true);?>;
 	</script>
-	<?php include_once(dirname(__FILE__) . '/bits/footer.html');?>
+	<?php include_once(dirname(__FILE__) . '/bits/footer.php');?>
 </body>
 </html>

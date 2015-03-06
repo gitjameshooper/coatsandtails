@@ -129,6 +129,6 @@ commonHeaders();
 	window.variants=<?php echo json_encode($variants);?>;
 	window.target_variant=<?php echo json_encode($merchandise_target_variant);?>;
 	</script>
-	<?php include_once(dirname(__FILE__) . '/bits/footer.html');?>
+	<?php include_once(dirname(__FILE__) . '/bits/footer.php');?>
 </body>
 </html>

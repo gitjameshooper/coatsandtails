@@ -88,11 +88,11 @@
 				}
 				?>
 				<li>
-					<a href="<?php echo $BASE_URL;?>index_v1.php" class="dropdown-toggle">Custom</a>
+					<a href="<?php echo $BASE_URL;?>request_order.php" class="dropdown-toggle">Custom</a>
 					<ul class="dropdown-menu" role="menu">
 						<li role="presentation" class="dropdown-header">Start from scratch. What would you like?</li>
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>index_v1.php">View Gallery</a></li>
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>order.php">Submit your Request</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>gallery.php">View Gallery</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>request_order.php">Submit your Request</a></li>
 					</ul>
 					<ul class="dropdown-menu full-width">
 						<li role="presentation" class="dropdown-header">&nbsp;</li>
@@ -129,7 +129,7 @@
 					<a href="<?php echo $BASE_URL;?>about.php" class="dropdown-toggle">Info</a>
 					<ul class="dropdown-menu" role="menu">
     					<li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" id="contact_link">Contact</a></li>
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>about.php">About Coat & Tails</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>about.php">About Coat &amp; Tails</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>info_artists.php">Artist Application</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>faq.php">FAQ</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>pricing.php">Pricing</a></li>
@@ -143,9 +143,9 @@
 					</ul>
 				</li>
 				<li>
-					<a href="<?php echo $BASE_URL;?>info_rescue.php" class="dropdown-toggle">Philanthropomorphy</a>
+					<a href="<?php echo $BASE_URL;?>fundraisers.php" class="dropdown-toggle">Philanthropomorphy</a>
 					<ul class="dropdown-menu" role="menu">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>info_rescue.php">Fundraisers</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>fundraisers.php">Fundraisers</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>photo_contest.php">Photo Contest</a></li>
 					</ul>
 					<ul class="dropdown-menu full-width">
@@ -156,8 +156,8 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href="<?php echo $BASE_URL;?>cart.php" id="cart_link">
-						<span class="glyphicon glyphicon-shopping-cart"></span>
+					<a id="cart-link" href="<?php echo $BASE_URL;?>cart.php" id="cart_link">
+						<img src="<?php echo $CDN_IMGS;?>img/cart-icon.png">
 					</a>
 				</li>
 				<li class="divider"></li>

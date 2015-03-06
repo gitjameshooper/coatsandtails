@@ -13,7 +13,7 @@ commonHeaders();
 <html lang="en">
 <head>
     <?php echo commonMetaHeader();?>
-    <link href="css/mycss/main_v1.css" rel="stylesheet" />
+     
     <script type="application/javascript" language="javascript" src="js/extraform-contest.js"></script>
 </head>
 <body class="f photo_draw">
@@ -22,7 +22,7 @@ commonHeaders();
 <div class="container sub-header">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="<?php echo $CDN_IMGS;?>img/custm.png" alt="Custom" class="sub-header-banner-img">
+				<img src="<?php echo $CDN_IMGS;?>img/contest_banner.png" alt="wall of fame" class="sub-header-banner-img">
 			</div>
 		</div>
 		<div class="row">
@@ -78,6 +78,6 @@ commonHeaders();
     <script>
     window.init.base_url="<?php echo $BASE_URL;?>";
     </script>
-    <?php include_once(dirname(__FILE__) . '/bits/footer.html');?>
+    <?php include_once(dirname(__FILE__) . '/bits/footer.php');?>
     </body>
 </html>

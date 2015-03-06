@@ -66,7 +66,7 @@ commonHeaders();
 		</div>
 	</div>
 
-	<?php include_once(dirname(__FILE__) . '/bits/footer.html');?>
+	<?php include_once(dirname(__FILE__) . '/bits/footer.php');?>
 	<?php echo commonFoot();?>
 	<script>
 	window.init.base_url="<?php echo $BASE_URL;?>";
