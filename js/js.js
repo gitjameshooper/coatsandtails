@@ -33,7 +33,7 @@ $(document).ready(function(){
 		 
           $('.gray-area').height(menuHeight + 10);
 	},function(){
-		window.console.log($('.gray-area').height());
+		 
 		 $('.gray-area').height(0);
 	});
 

@@ -366,6 +366,9 @@ padding-left:30px;
 color:#333;
 text-decoration:underline;
 }
+#order_pet_content.photo_contest .mobile {
+  display: none;
+  }
 
 @media screen and (max-width: 800px){
   .side-portrait {
@@ -375,6 +378,31 @@ text-decoration:underline;
   width:100%;
   margin:10px auto 0;
   }
+  #order_pet_content form#pet_form  {
+  max-width: 380px;
+  float: none;
+  display: block;
+  width: 100%;
+  margin: 10px auto 0;
+  }
+  #order_pet_content.photo_contest form#pet_form  {
+      max-width: 300px;
+  
+  }
+   #order_pet_content.photo_contest .mobile {
+    display: block;
+  font-size: 16px;
+  text-align: left;
+  max-width: 300px;
+  margin: 10px auto 0;
+  }
+  #order_pet_content.photo_contest h1{
+     
+  font-size: 30px;
+  text-align: left;
+  max-width: 300px;
+  margin: 10px auto 0;
+}
 
   #order_pet_content h1 {
   text-align:center;
@@ -387,12 +415,7 @@ text-decoration:underline;
   text-align:center;
   }
 
-  #order_pet_content.photo_contest h1,#order_pet_content .float-left h1 {
-  display:none;
-  }
-
-  
-
+   
   #order_pet_content .photo-rec-tagline {
   font-size:15px;
   }

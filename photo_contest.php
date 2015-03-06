@@ -40,10 +40,11 @@ commonHeaders();
 		<h1>Photo Recommendations</h1>
 		 
 		<p class="photo-rec-tagline">Below are recommendations. For more examples of dos and don\'ts, see my <a href="http://www.coatandtails.com/wall.php" />Wall of Fame and & Shame</a></p>
-		<img class="side-portrait" src="https://s3.amazonaws.com/coatandtails/img/quiz/MDS_A_L_.jpg" />
+		<img class="side-portrait" src="https://s3.amazonaws.com/coatandtails/img/custom_order/one-pet.jpg" />
 
 	</div>
   <div class="float-left"><h1>Submission Form</h1>
+    <p class="mobile">Please Fill out The Fields Below to Enter</p>
   	<form id="pet_form" name="pet_form" action="photo_contest_complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
     <input type="hidden" name="num_pets"  value="photo-contest" />
     <input type="hidden" name="photo_contest"  value="1" />
