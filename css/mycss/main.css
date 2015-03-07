@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*
+ 
 body{
   overflow-x: hidden;
 }
-*/
-
+ 
+ 
  /* header */
 .gray-area{
   position: absolute;
@@ -28,7 +28,18 @@ body{
 .dropdown-menu{
    transition: none !important;
 }
- 
+ .cover-banner {    
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  width: auto;
+  left: 50%;
+  overflow: hidden;
+}
+.cover-banner img{
+  
+  height: 100%;
+}
  
 #social-icons{
   width: auto;

@@ -31,9 +31,9 @@ commonHeaders();
   
   <div class="style_examples" style="text-align:left;">
     <h3>Do you rep a rescue group? Wanna work together?</h3>
-<p>First, I love the work rescue groups do. They have such a huge impact on so many human and animal lives. And I want Coat & Tails to be a part of that.</p>
+<p>First, I love the work rescue groups do. They have such a huge impact on so many human and animal lives. And I want Coat &amp; Tails to be a part of that.</p>
 <p>So I would like to try to help in a significant way. That’s primarily why I make and sell the shirts: to help raise money for rescue groups. I typically give $10 per shirt sold to the groups I work with. Collectively I've helped rescue groups raise thousands of dollars. And all they had to do was promote the campaign.</p>
-<p>If you’re interested in a fundraiser with Coat & Tails, email bryce@coatandtails.com</p>  
+<p>If you’re interested in a fundraiser with Coat &amp; Tails, email bryce@coatandtails.com</p>  
  
   <div style="display:none;">
  <h3>Current Fundraiser: Love-a-Bull</h3>

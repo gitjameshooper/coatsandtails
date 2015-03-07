@@ -34,7 +34,7 @@ commonHeaders();
 <div id="pets">
 <div class="menu">
 	<ul>
-		<li class="treenode">1 Pet<img class="pricing" src="https://s3.amazonaws.com/coatandtails/img/pricing/photo-option.jpg" style="width:300px;float:right;margin-right:75px">
+		<li class="treenode">1 Pet<img class="pricing" src="<?php echo $CDN_IMGS;?>img/pricing/photo-option.jpg" style="width:300px;float:right;margin-right:75px">
 <hr class="list">
 
 	<ul class=leaders>
@@ -112,7 +112,7 @@ commonHeaders();
 <div id="pets">
 <div class="menu">
 	<ul>
-		<li class="treenode">1 Pet<img class="pricing" src="https://s3.amazonaws.com/coatandtails/img/pricing/draw-option.jpg" style="width:300px;float:right;margin-right:75px">
+		<li class="treenode">1 Pet<img class="pricing" src="<?php echo $CDN_IMGS;?>img/pricing/draw-option.jpg" style="width:300px;float:right;margin-right:75px">
 <hr class="list">
 
 	<ul class=leaders>

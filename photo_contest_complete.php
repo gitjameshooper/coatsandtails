@@ -50,7 +50,7 @@ if(isset($_POST['submit'],$_POST['full_name'],$_POST['email_address'])) {
 			 
 
   				// Send Email
-			// $sent = @mail('bryce.dishongh@gmail.com', 'COAT&TAILS: '.$_POST['full_name'].' Photo Contest Entry', $msg, $headers);
+			$sent = @mail('bryce.dishongh@gmail.com', 'COAT&TAILS: '.$_POST['full_name'].' Photo Contest Entry', $msg, $headers);
 	      
 		}
 		   

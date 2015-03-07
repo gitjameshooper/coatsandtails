@@ -31,11 +31,11 @@
 									. '</li>';
 							}
 							?>
-							<li role="presentation">
+							 
 								<div class="cover-banner">
 									<img src="">
 								</div>
-							</li>
+							 
 						</ul>
 						 
 					</li>
@@ -58,11 +58,11 @@
 									. '</li>';
 							}
 							?>
-							<li role="presentation">
+							 
 								<div class="cover-banner">
 									<img src="">
 								</div>
-							</li>
+							 
 						</ul>
 						 
 					</li>

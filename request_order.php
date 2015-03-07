@@ -14,7 +14,7 @@ commonHeaders();
 <head>
     <?php echo commonMetaHeader();?>
   
-    <script type="application/javascript" language="javascript" src="js/extraform.js"></script>
+    <script type="application/javascript" language="javascript" src="<?php echo $BASE_URL;?>js/extraform.js"></script>
 </head>
 <body class="f photo_draw">
 <?php include_once(dirname(__FILE__) . '/bits/header.php');?>
@@ -44,7 +44,7 @@ if(!isset($_GET['pet_num'])){
  if($pet_num == 1 || $pet_num == NULL ){     
   echo '<h1>Custom Portrait: 1 Pet</h1>
    <p id="num_pets_tag">Want <strong>two</strong> pets in one portrait? Click <a href="request_order.php?pet_num=2">Here.</a></p>
-  <img class="side-portrait" src="https://s3.amazonaws.com/coatandtails/img/custom_order/one-pet.jpg" />
+  <img class="side-portrait" src="'.$CDN_IMGS.'img/custom_order/one-pet.jpg" />
  
  
  <form id="pet_form" name="pet_form" action="/complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
@@ -83,7 +83,7 @@ if(!isset($_GET['pet_num'])){
 }else if($pet_num == 2){
 	 echo '<h1>Custom Portrait: 2 Pets</h1>
 	 <p id="num_pets_tag">Want <strong>three</strong> pets in one portrait? Click <a href="request_order.php?pet_num=3">Here.</a></p>
-  <img class="side-portrait" src="https://s3.amazonaws.com/coatandtails/img/custom_order/two-pet.jpg" />
+  <img class="side-portrait" src="'.$CDN_IMGS.'img/custom_order/two-pet.jpg" />
  
  
  <form id="pet_form" name="pet_form" action="/complete.php" method="post" onsubmit="return validateForm()"  enctype="multipart/form-data">
@@ -147,7 +147,7 @@ if(!isset($_GET['pet_num'])){
 }else if($pet_num == 3){
 	 echo '<h1>Custom Portrait: 3 Pets</h1>
 	 <p id="num_pets_tag">Want <strong>one</strong> pet in one portrait? Click <a href="request_order.php?pet_num=1">Here.</a></p>
-  <img class="side-portrait" src="https://s3.amazonaws.com/coatandtails/img/custom_order/three-pet.jpg" />
+  <img class="side-portrait" src="'.$CDN_IMGS.'img/custom_order/three-pet.jpg" />
   
  
  

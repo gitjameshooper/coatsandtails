@@ -14,7 +14,7 @@ commonHeaders();
 <head>
     <?php echo commonMetaHeader();?>
      
-    <script type="application/javascript" language="javascript" src="js/extraform-contest.js"></script>
+    <script type="application/javascript" language="javascript" src="<?php echo $BASE_URL;?>js/extraform-contest.js"></script>
 </head>
 <body class="f photo_draw">
 <?php include_once(dirname(__FILE__) . '/bits/header.php');?>
@@ -40,7 +40,7 @@ commonHeaders();
 		<h1>Photo Recommendations</h1>
 		 
 		<p class="photo-rec-tagline">Below are recommendations. For more examples of dos and don\'ts, see my <a href="http://www.coatandtails.com/wall.php" />Wall of Fame and & Shame</a></p>
-		<img class="side-portrait" src="https://s3.amazonaws.com/coatandtails/img/custom_order/one-pet.jpg" />
+		<img class="side-portrait" src="'.$CDN_IMGS.'img/custom_order/one-pet.jpg" />
 
 	</div>
   <div class="float-left"><h1>Submission Form</h1>

@@ -47,7 +47,10 @@
 			</div>
 				<ul>
 					<li class="footer-links">
-						<a class="footer-links" href="<?php echo $BASE_URL;?>about.php" title="About ">About</a>
+						<a class="footer-links" href="<?php echo $BASE_URL;?>about.php" title="About">About</a>
+					</li>
+					<li class="footer-links">
+						<a class="footer-links" href="http://blog.coatandtails.com/" title="Blog">Blog</a>
 					</li>
 					<li class="footer-links">
 						<a href="javascript:void(0);" class="t_c" style="color:#666666; text-decoration:none;">Terms</a>
