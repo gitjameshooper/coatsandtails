@@ -37,6 +37,10 @@ $(document).ready(function(){
 		 $('.gray-area').height(0);
 	});
 
+	$('.navbar-nav.main a').on('click',function(){
+			$(this).parent().toggleClass('show-list'); 
+	});
+
 	if(f_page.length > 0){
 		$('.dropdown-menu > li > a').mouseover(function(){
 			if(typeof $(this).attr('data-img') !== "undefined"){

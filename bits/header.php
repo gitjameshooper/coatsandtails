@@ -17,7 +17,7 @@
 				if($mens_collections_count > 0){
 					?>
 					<li>
-						<a href="<?php echo $BASE_URL;?>collections.php?g=0" class="dropdown-toggle">Men</a>
+						<a href="javascript:void(0);" class="dropdown-toggle">Men</a>
 						<ul class="dropdown-menu grouped" role="menu">
 							<li role="presentation" class="dropdown-header">Choose a Collection.</li>
 							<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>collections.php?g=0">View All</a></li>
@@ -44,7 +44,7 @@
 				if($womens_collections_count > 0){
 					?>
 					<li>
-						<a href="<?php echo $BASE_URL;?>collections.php?g=1" class="dropdown-toggle">Women</a>
+						<a href="javascript:void(0);" class="dropdown-toggle">Women</a>
 						<ul class="dropdown-menu grouped" role="menu">
 							<li role="presentation" class="dropdown-header">Choose a Collection.</li>
 							<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>collections.php?g=1">View All</a></li>
@@ -70,7 +70,7 @@
 				}
 				?>
 				<li>
-					<a href="<?php echo $BASE_URL;?>request_order.php" class="dropdown-toggle">Custom</a>
+					<a href="javascript:void(0);" class="dropdown-toggle">Custom</a>
 					<ul class="dropdown-menu" role="menu">
 						<li role="presentation" class="dropdown-header">Start from scratch. What would you like?</li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>gallery.php">View Gallery</a></li>
@@ -79,7 +79,7 @@
 					 
 				</li>
 				<li>
-					<a href="<?php echo $BASE_URL;?>merchandise.php" class="dropdown-toggle">Merchandise</a>
+					<a href="javascript:void(0);" class="dropdown-toggle">Merchandise</a>
 					<ul class="dropdown-menu" role="menu">
 						<li role="presentation" class="dropdown-header">Oh and I also make shirts and stuff</li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>merchandise.php">View all Merchandise</a></li>
@@ -95,7 +95,7 @@
 					 
 				</li>
 				<li>
-					<a href="<?php echo $BASE_URL;?>about.php" class="dropdown-toggle">Info</a>
+					<a href="javascript:void(0);" class="dropdown-toggle">Info</a>
 					<ul class="dropdown-menu" role="menu">
     					<li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" id="contact_link">Contact</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>about.php">About Coat &amp; Tails</a></li>
@@ -106,7 +106,7 @@
 					 
 				</li>
 				<li>
-					<a href="<?php echo $BASE_URL;?>fundraisers.php" class="dropdown-toggle">Philanthropomorphy</a>
+					<a href="javascript:void(0);" class="dropdown-toggle">Philanthropomorphy</a>
 					<ul class="dropdown-menu" role="menu">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>fundraisers.php">Fundraisers</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>photo_contest.php">Photo Contest</a></li>

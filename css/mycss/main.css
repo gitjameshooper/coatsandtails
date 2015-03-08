@@ -20,7 +20,13 @@ body{
   color: #000 !important;
   border: none;
   outline: none !important;
+  text-decoration: none;
 }
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: #eee;
+}
+
 .nav > li > a.social_icon {
   display: inline-block;
   padding: 24px 5px;
@@ -62,6 +68,7 @@ background-color: #eee;
 }
 
 #social-icons .divider {
+    display: block !important;
 width: 1px;
 margin: 19px 3px;
 overflow: hidden;
@@ -145,7 +152,7 @@ img.wall{
 	position:relative;
 	margin-bottom:40px;
 }
-
+ 
 
 @media and (max-width:768px){
 
@@ -444,7 +451,7 @@ text-decoration:underline;
   margin-top:20px;
   }
 }
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 1100px) {
  .navbar-nav li .dropdown-toggle{
     padding-left: 9px;
     padding-right: 9px;
@@ -460,6 +467,19 @@ text-decoration:underline;
   .gray-area{
   display: none !important
   }
+   body.f .main-navbar li >.dropdown-menu {
+  
+  display: none;
+  }
+  body.f .main-navbar li.show-list >.dropdown-menu {
+  
+  display: block;
+  }
+  #social-icons {
+   
+  margin-right: 0;
+  margin-left: -5px;
+}
 
 }
 @media screen and (max-width: 480px){
