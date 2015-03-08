@@ -7,9 +7,7 @@ $target_variant_count = 0;
 $merchandise_target_variant = '';
 
 include_once(dirname(__FILE__) . '/defChecks.php');
-
  
-
 $CURRENT_PAGE_NAME = str_case(stripslashes($target_merchandise[0]['merchandise_title']), 'uw');
 
 closeConnections();
@@ -35,8 +33,7 @@ commonHeaders();
 
 //  Sending Email
 if(isset($_POST['submit'],$_POST['full_name'],$_POST['email_address'])) {
-    
-	
+     
 	$headers = 'From: '.$_POST['email_address'] . "\r\n" .
     'Reply-To: '.$_POST['email_address'] .  "\r\n" ;
 	
@@ -47,15 +44,12 @@ if(isset($_POST['submit'],$_POST['full_name'],$_POST['email_address'])) {
 			. 'Name: ' . $_POST['full_name'] . "\n" 
 			. 'Email: ' . $_POST['email_address'] . "\n"
 			. 'Pet Name: ' . $_POST['pet_name_1'] . "\n";
-			 
-
+			  
   				// Send Email
 			$sent = @mail('bryce.dishongh@gmail.com', 'COAT&TAILS: '.$_POST['full_name'].' Photo Contest Entry', $msg, $headers);
 	      
 		}
-		   
-		  
-		  
+		    
 		function testFile($file){ 
 		
 			if($file["size"] < 200000000){
@@ -78,8 +72,7 @@ if(isset($_POST['submit'],$_POST['full_name'],$_POST['email_address'])) {
 				  return false;
 			}
 		}
-		
-		
+		 
 		function uploadFile ($file){
 			
 			// Remove Spaces
@@ -87,7 +80,7 @@ if(isset($_POST['submit'],$_POST['full_name'],$_POST['email_address'])) {
 			 $pet_name = str_replace(' ','',$_POST['pet_name_1']);
 			 
 			 if($_POST['num_pets'] == 'photo-contest'){
-			 	$target_path = $_SERVER['DOCUMENT_ROOT'].'/coatsandtails/upload/photo-contest/';
+			 	$target_path = $_SERVER['DOCUMENT_ROOT'].'/upload/photo-contest/';
 			 	$target_path = $target_path.$full_name.'-'.$pet_name.'-'.basename( $file['name']); 
 			 	if(!move_uploaded_file($file['tmp_name'], $target_path)) {
 					echo '<p class="upload-error">There was an error uploading the picture '.basename( $file['name']).'. Please Try Again Later</p>';
@@ -105,16 +98,11 @@ if(isset($_POST['submit'],$_POST['full_name'],$_POST['email_address'])) {
 	foreach($_FILES as $file){
 			  
 			if(testFile($file) == true){
-				   
 				uploadFile($file);
-				 
 			} 
-				
 	}
 }
- 
- 
- 
+  
 		echo commonFoot();
 ?>
 	<script>
