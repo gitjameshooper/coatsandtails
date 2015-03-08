@@ -346,6 +346,12 @@ text-decoration:underline;
   
 }
 @media screen and (max-width: 990px) { 
+  body.f .container-fluid > .navbar-collapse{
+    display: none;
+  }
+  body.f.mobile-device .container-fluid > .navbar-collapse{
+    display: block;
+  }
   .aspect-ratio {
    
   padding-bottom: 44%;
