@@ -28,7 +28,7 @@ commonHeaders();
 <div class="container w-bg center">
   
   <div class="bodytext">
-    <img src="<?php echo $CDN_IMGS;?>img/about.jpg"  border="0" style="max-width:90%;margin-left:auto;margin-right:auto;" />
+    <div class="aspect-ratio"><iframe id="about-video" width="100%" height="315" src="https://www.youtube.com/embed/XBKsYZceIz8?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe></div>
 	<h2>WTF is Coat and Tails?</h2>
 	<p class="about-c_t">
 		Coat and Tails is me, Bryce Dishongh. I live in Austin, Texas with my dog Bess. This is my website, and everything on it was created by me. 
