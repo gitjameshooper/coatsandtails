@@ -26,7 +26,7 @@ $(document).ready(function(){
 	var upload_page = $('body.upload').text();
 	var cart_page = $('body.cart').text();
 
-
+ 
 	$('.navbar-nav.main > li').hover(function(){
 		 
 		var menuHeight = $(this).find('.dropdown-menu').height();
