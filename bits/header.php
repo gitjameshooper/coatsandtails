@@ -11,7 +11,7 @@
 				<img src="<?php echo $CDN_IMGS;?>img/logo.png" alt="<?php echo $SITE_NAME;?>">
 			</a>
 		</div>
-		<div class="navbar-collapse">
+		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav main">
 				<?php
 				if($mens_collections_count > 0){
