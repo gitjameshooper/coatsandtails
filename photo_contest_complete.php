@@ -1,5 +1,5 @@
 <?php
-$PAGE_DESCRIPTION = $CURRENT_PAGE_NAME = $CURRENT_PAGE_TYPE = 'Merchandise';
+$PAGE_DESCRIPTION = $CURRENT_PAGE_NAME = $CURRENT_PAGE_TYPE = 'Thanks for your Submission';
 
 $status_options = array('Active', 'Hidden', 'Sold Out', 'Coming Soon');
 $variants = array();
@@ -24,7 +24,7 @@ commonHeaders();
 	<div class="container sub-header">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="<?php echo $CDN_IMGS;?>img/merch_baner.png" alt="Merchandise" class="sub-header-banner-img">
+				<img src="<?php echo $CDN_IMGS;?>img/photo_contest_banner.png" alt="Merchandise" class="sub-header-banner-img">
 			</div>
 		</div>
 	</div>
