@@ -307,11 +307,6 @@ padding:4px 5px;
 
 #pet_form input[type="submit"] {
   background-color: rgba(0, 0, 0, 0);
-  background-image: -webkit-radial-gradient(0px 100%, circle cover, rgb(255, 255, 255) 6px, rgb(0, 0, 0) 6px), -webkit-radial-gradient(100% 100%, circle cover, rgb(255, 255, 255) 6px, rgb(0, 0, 0) 6px), -webkit-radial-gradient(100% 0px, circle cover, rgb(255, 255, 255) 6px, rgb(0, 0, 0) 6px), -webkit-radial-gradient(0px 0px, circle cover, rgb(255, 255, 255) 6px, rgb(0, 0, 0) 6px);
-  background-origin: padding-box, padding-box, padding-box, padding-box;
-  background-position: 0% 100%, 100% 100%, 100% 0%, 0% 0%;
-  background-repeat: no-repeat;
-  background-size: 75% 75%;
   border-radius: 6px;
   border: none;
   line-height: 1;
@@ -324,6 +319,14 @@ padding:4px 5px;
   padding: 10px 16px;
   text-align: center;
   box-shadow: none;
+  background-color: transparent;
+  background-image: radial-gradient(circle at 0px 100% , #FFF 6px, #000 6px), radial-gradient(circle at 100% 100% , #FFF 6px, #000 6px), radial-gradient(circle at 100% 0px , #FFF 6px, #000 6px), radial-gradient(circle at 0px 0px , #FFF 6px, #000 6px);
+  background-attachment: scroll, scroll, scroll, scroll;
+  background-clip: border-box, border-box, border-box, border-box;
+  background-origin: padding-box, padding-box, padding-box, padding-box;
+  background-position: left bottom, right bottom, right top, left top;
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
 }
  
 #order_pet_content.photo_contest h1 {
