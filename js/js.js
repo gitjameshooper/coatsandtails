@@ -56,7 +56,21 @@ $(document).ready(function(){
 		 $('.gray-area').height(0);
 	});
 	
-
+	//  Write to CSV for Tee Shirts
+	function writeToCsv(){
+		$.ajax({
+			type: "POST",
+			url: window.init.base_url + "services/build_csv.php",
+			data: {
+				items: window.cart['items'],
+				customer: window.cart['order_details']
+			},
+			cache: false,
+			success:function(){
+				 
+			}
+		});
+	}
 	if(f_page.length > 0){
 		$('.dropdown-menu > li > a').mouseover(function(){
 			if(typeof $(this).attr('data-img') !== "undefined"){
@@ -631,6 +645,7 @@ $(document).ready(function(){
 			}
 
 			if(payment_method == '0'){ // pay via paypal
+				// for csv and paypal
 				window.cart['order_details'] = {
 					first_name: first_name,
 					last_name: last_name,
@@ -663,7 +678,7 @@ $(document).ready(function(){
 					comment: comment,
 					coupon: coupon
 					};
-
+					
 				$.ajax({
 					type: "POST",
 					url: window.init.base_url + "services/paypal_payment.php",
@@ -676,6 +691,7 @@ $(document).ready(function(){
 					cache: false,
 					success:function(h){
 						if(h.result == 'success'){
+							writeToCsv();
 							$('body').html(h.data);
 							document.f.submit();
 						}else if(h.result == 'error'){
@@ -684,6 +700,41 @@ $(document).ready(function(){
 					}
 				});
 			}else if(payment_method == '1'){ // pay via cc
+				// for csv
+				window.cart['order_details'] = {
+					first_name: first_name,
+					last_name: last_name,
+					email: email,
+					phone: phone,
+					address_1: address_1,
+					address_2: address_2,
+					country: country,
+					city: city,
+					zip_code: zip_code,
+					state: state,
+					billing_same_as_shipping: billing_same_as_shipping_val,
+					shipping_first_name: shipping_first_name,
+					shipping_last_name: shipping_last_name,
+					shipping_phone: shipping_phone,
+					shipping_address_1: shipping_address_1,
+					shipping_address_2: shipping_address_2,
+					shipping_country: shipping_country,
+					shipping_city: shipping_city,
+					shipping_zip_code: shipping_zip_code,
+					shipping_state: shipping_state,
+					company: company,
+					card_type: card_type,
+					name_on_card: name_on_card,
+					cc_num: cc_num,
+					ccv_num: ccv_num,
+					expiration_m: expiration_m,
+					expiration_y: expiration_y,
+					pick_up: pick_up_val,
+					comment: comment,
+					coupon: coupon
+					};
+					
+
 				$.ajax({
 					type: "POST",
 					url: window.init.base_url + "services/cc_payment.php",
@@ -726,6 +777,7 @@ $(document).ready(function(){
 					cache: false,
 					success:function(h){
 						if(h.result == 'success'){
+							writeToCsv();
 							$('.cart-section>.row').html('<div class="col-sm-12"><div class="alert alert-success">Your order was successfully processed.</div></div>');
 						}else if(h.result == 'error'){
 							alert('An error occurred when handling the payment for the order. ' + h.error_msg);

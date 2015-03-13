@@ -185,6 +185,8 @@ commonHeaders();
 											}else{
 												echo $CDN_IMGS . $cart_query[$i]['info'][0]['merchandise_imgs_dir'];
 											}
+											$cart_arr['items'][$i]['itemName'] = stripslashes($cart_query[$i]['info'][0]['merchandise_title']);
+											$cart_arr['items'][$i]['description'] = $cart_query[$i]['info'][0]['merchandise_variant_label'];
 											echo ');"></div>'
 													. '</td>'
 													. '<td>'
