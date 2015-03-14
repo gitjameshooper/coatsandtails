@@ -691,9 +691,9 @@ $(document).ready(function(){
 					cache: false,
 					success:function(h){
 						if(h.result == 'success'){
-							writeToCsv();
 							$('body').html(h.data);
 							document.f.submit();
+							writeToCsv();
 						}else if(h.result == 'error'){
 							alert('An error occurred when handling the payment for the order.');
 						}
@@ -777,8 +777,8 @@ $(document).ready(function(){
 					cache: false,
 					success:function(h){
 						if(h.result == 'success'){
-							writeToCsv();
 							$('.cart-section>.row').html('<div class="col-sm-12"><div class="alert alert-success">Your order was successfully processed.</div></div>');
+							writeToCsv();
 						}else if(h.result == 'error'){
 							alert('An error occurred when handling the payment for the order. ' + h.error_msg);
 							// window.top.location = window.init.base_url;
