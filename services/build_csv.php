@@ -12,7 +12,7 @@ function writeToCsv($allMerch){
 	
 	if (!file_exists($filename)) {
 		$fp = fopen($filename, 'a');
-	    file_put_contents ( $filename , "Date, Name, Product Id, Description, Size, Amount, Ship, Street Address 1, Street Address 2, City, State, Zip, Country, Email \n");
+	    file_put_contents ( $filename , "Order No, Date, Name, Product Id, Description, Size, Amount, Ship, Street Address 1, Street Address 2, City, State, Zip, Country, Email \n");
 	}else{
 		$fp = fopen($filename, 'a');
 	}
@@ -25,7 +25,8 @@ function writeToCsv($allMerch){
 
 	closeConnections();
 }
-                   
+$orderNumResult = $DB->query("SELECT MAX(order_id) FROM `order`");
+$orderId = $orderNumResult[0]['MAX(order_id)'];                  
 $list = $_POST["items"];
 $billing_same_as_shipping = $_POST["customer"]["billing_same_as_shipping"];
 $shipFirstName =   $billing_same_as_shipping ? $_POST["customer"]["first_name"] : $_POST["customer"]["shipping_first_name"];
@@ -51,8 +52,8 @@ foreach($list as $listItem){
 		$result = $DB->query("SELECT * FROM `merchandise` WHERE merchandise_id=".$id);
 		
 		if($result[0]['merchandise_category'] == 1){
-	  
-			$item = array($date, $shipName, $id, $listItem['itemName'], $listItem['description'], $listItem['amount'], $pickUp, $shipAdd1, $shipAdd2, $shipCity, $shipState, $shipZip, $shipCountry, $email);
+	  		
+			$item = array($orderId, $date, $shipName, $id, $listItem['itemName'], $listItem['description'], $listItem['amount'], $pickUp, $shipAdd1, $shipAdd2, $shipCity, $shipState, $shipZip, $shipCountry, $email);
 	         
 			$allMerch [] = $item;
 			$item = null;	 
