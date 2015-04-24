@@ -1,0 +1,44 @@
+// Single side border-radius
+
+.border-radius(@radius) {
+  border-radius: @radius;
+}
+.border-top-radius(@radius) {
+  border-top-right-radius: @radius;
+   border-top-left-radius: @radius;
+}
+.border-right-radius(@radius) {
+  border-bottom-right-radius: @radius;
+     border-top-right-radius: @radius;
+}
+.border-bottom-radius(@radius) {
+  border-bottom-right-radius: @radius;
+   border-bottom-left-radius: @radius;
+}
+.border-left-radius(@radius) {
+  border-bottom-left-radius: @radius;
+     border-top-left-radius: @radius;
+}
+
+.negative-border-radius(@radius, @bg, @cut-off: #FFF) {
+  background:
+    -o-radial-gradient(0 100%, circle, @cut-off @radius, @bg @radius),
+    -o-radial-gradient(100% 100%, circle, @cut-off @radius, @bg @radius),
+    -o-radial-gradient(100% 0, circle, @cut-off @radius, @bg @radius),
+    -o-radial-gradient(0 0, circle, @cut-off @radius, @bg @radius);
+  background:
+    -moz-radial-gradient(0 100%, circle, @cut-off @radius, @bg @radius),
+    -moz-radial-gradient(100% 100%, circle, @cut-off @radius, @bg @radius),
+    -moz-radial-gradient(100% 0, circle, @cut-off @radius, @bg @radius),
+    -moz-radial-gradient(0 0, circle, @cut-off @radius, @bg @radius);
+  background:
+    -webkit-radial-gradient(0 100%, circle, @cut-off @radius, @bg @radius),
+    -webkit-radial-gradient(100% 100%, circle, @cut-off @radius, @bg @radius),
+    -webkit-radial-gradient(100% 0, circle, @cut-off @radius, @bg @radius),
+    -webkit-radial-gradient(0 0, circle, @cut-off @radius, @bg @radius);
+  background-position: bottom left, bottom right, top right, top left;
+  -moz-background-size: 75% 75%;
+  -webkit-background-size: 75% 75%;
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+}

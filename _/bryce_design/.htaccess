@@ -1,0 +1,7 @@
+<IfModule mod_headers.c>
+   Header add Access-Control-Allow-Origin: "http://blog.coatandtails.com"
+</IfModule>
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^quiz$ /quiz.php [L]

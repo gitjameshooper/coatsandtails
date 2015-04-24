@@ -1,0 +1,199 @@
+<link href="css/mycss/about.css" rel="stylesheet" />
+<script>
+function initMenus() {
+  if (!document.getElementsByTagName) return;
+  var aMenus = document.getElementsByTagName("LI");
+  for (var i = 0; i < aMenus.length; i++) {
+    var mclass = aMenus[i].className;
+    if (mclass.indexOf("treenode") > -1) {
+      var submenu = aMenus[i].childNodes;
+      for (var j = 0; j < submenu.length; j++) {
+        if (submenu[j].tagName == "A") {
+          submenu[j].onclick = function() {
+            var node = this.nextSibling;
+            while (1) {
+              if (node != null) {
+                if (node.tagName == "UL") {
+                  var d = (node.style.display == "none")
+                  node.style.display = (d) ? "block" : "none";
+                  this.className = (d) ? "treeopen" : "treeclosed";
+                  return false;
+                }
+                node = node.nextSibling;
+              } else {
+                return false;
+              }
+            }
+            return false;
+          }
+          submenu[j].className = (mclass.indexOf("open") > -1) ? "treeopen" : "treeclosed";
+        }
+        if (submenu[j].tagName == "UL")
+          submenu[j].style.display = (mclass.indexOf("open") > -1) ? "block" : "none";
+      }
+    }
+  }
+}
+window.onload = initMenus;
+</script>
+
+
+<div id="container">
+<h1>Pricing</h1>
+<hr>
+<div id="container2">
+	<h2>Paper Pets</h2>
+	<p>Paper pets are...</p>
+
+<div id="pets">
+<div class="menu">
+	<ul>
+		<li class="treenode"><a href="#">1 Pet</a>
+<hr>
+
+	<ul class=leaders>
+		<li><span>8" x 10"</span>
+			<span>7.95</span>
+		<li><span>11" x 14"</span>
+			<span>8.95</span>
+		<li><span>16" x 20"</span>
+			<span>7.95</span>
+		<li><span>20" x 24"</span>
+			<span>5.25</span>
+	</ul>
+	</ul>
+</div>
+
+<div class="menu">
+	<ul>
+		<li class="treenode"><a href="#">2 Pets</a>
+<hr>
+
+	<ul class=leaders>
+		<li><span>8" x 10"</span>
+			<span>7.95</span>
+		<li><span>11" x 14"</span>
+			<span>8.95</span>
+		<li><span>16" x 20"</span>
+			<span>7.95</span>
+		<li><span>20" x 24"</span>
+			<span>5.25</span>
+	</ul>
+	</ul>
+</div>
+
+<div class="menu">
+	<ul>
+		<li class="treenode"><a href="#">3 Pets</a>
+<hr>
+
+	<ul class=leaders>
+		<li><span>8" x 10"</span>
+			<span>7.95</span>
+		<li><span>11" x 14"</span>
+			<span>8.95</span>
+		<li><span>16" x 20"</span>
+			<span>7.95</span>
+		<li><span>20" x 24"</span>
+			<span>5.25</span>
+	</ul>
+	</ul>
+</div>
+
+<div class="menu">
+	<ul>
+		<li class="treenode"><a href="#">4 Pets</a>
+<hr>
+
+	<ul class=leaders>
+		<li><span>8" x 10"</span>
+			<span>7.95</span>
+		<li><span>11" x 14"</span>
+			<span>8.95</span>
+		<li><span>16" x 20"</span>
+			<span>7.95</span>
+		<li><span>20" x 24"</span>
+			<span>5.25</span>
+	</ul>
+	</ul>
+</div>
+</div>
+
+
+
+	<h2>Paper Pets</h2>
+	<p>Paper pets are...</p>
+
+<div id="pets">
+<div class="menu">
+	<ul>
+		<li class="treenode"><a href="#">1 Pet</a>
+<hr>
+
+	<ul class=leaders>
+		<li><span>8" x 10"</span>
+			<span>7.95</span>
+		<li><span>11" x 14"</span>
+			<span>8.95</span>
+		<li><span>16" x 20"</span>
+			<span>7.95</span>
+		<li><span>20" x 24"</span>
+			<span>5.25</span>
+	</ul>
+	</ul>
+</div>
+
+<div class="menu">
+	<ul>
+		<li class="treenode"><a href="#">2 Pets</a>
+<hr>
+
+	<ul class=leaders>
+		<li><span>8" x 10"</span>
+			<span>7.95</span>
+		<li><span>11" x 14"</span>
+			<span>8.95</span>
+		<li><span>16" x 20"</span>
+			<span>7.95</span>
+		<li><span>20" x 24"</span>
+			<span>5.25</span>
+	</ul>
+	</ul>
+</div>
+
+<div class="menu">
+	<ul>
+		<li class="treenode"><a href="#">3 Pets</a>
+<hr>
+
+	<ul class=leaders>
+		<li><span>8" x 10"</span>
+			<span>7.95</span>
+		<li><span>11" x 14"</span>
+			<span>8.95</span>
+		<li><span>16" x 20"</span>
+			<span>7.95</span>
+		<li><span>20" x 24"</span>
+			<span>5.25</span>
+	</ul>
+	</ul>
+</div>
+
+<div class="menu">
+	<ul>
+		<li class="treenode"><a href="#">4 Pets</a>
+<hr>
+
+	<ul class=leaders>
+		<li><span>8" x 10"</span>
+			<span>7.95</span>
+		<li><span>11" x 14"</span>
+			<span>8.95</span>
+		<li><span>16" x 20"</span>
+			<span>7.95</span>
+		<li><span>20" x 24"</span>
+			<span>5.25</span>
+	</ul>
+	</ul>
+
+</div>
