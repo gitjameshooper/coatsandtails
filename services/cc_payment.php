@@ -10,7 +10,7 @@
 $IS_SERVICE = true;
 include_once(dirname(dirname(__FILE__)) . '/defChecks.php');
 commonHeaders();
-
+$pay_type = 'Credit Card';
 if(
     isset($_POST["total"]) &&
     isset($_POST["shipping"]) &&
@@ -117,6 +117,7 @@ if(
 
     $d = serialize($d);
 
+    $subtotal = number_format($total, 2);
     $shipping = number_format($shipping, 2);
     $discount = number_format($discount, 2);
     $total = number_format($total, 2);
@@ -350,6 +351,9 @@ if(
         $subject = "Payment for Order #" . $order_id;
         $msg=$msgH.$msg.$msgF;
         @mail($ADMIN_EMAIL, $subject, $msg, $hds);
+
+        // email receipt
+        include("email_receipt.php"); 
 
         $arr=array('result'=>'success','data'=>$resp);
       }else{

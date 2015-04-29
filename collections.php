@@ -93,21 +93,23 @@ commonHeaders();
 					?>
 					<div class="row">
 						<div class="col-sm-12">
-							<a href="javascript:void(0);" data-id="1" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/belle_banner.jpg">
+							<a href="javascript:void(0);" data-id="12" class="collections-banner-target collections-target">
+								<img src="<?php echo $CDN_IMGS;?>img/collections/princess_banner.png">
 							</a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-6">
-							<a href="javascript:void(0);" data-id="16" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/edwardian_banner.jpg">
+							<a href="javascript:void(0);" data-id="8" class="collections-banner-target collections-target">
+								<img src="<?php echo $CDN_IMGS;?>img/collections/southernbelle.png">
 							</a>
+							
 						</div>
 						<div class="col-sm-6">
-							<a href="javascript:void(0);" data-id="12" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/princess_banner.jpg">
+							<a href="javascript:void(0);" data-id="15" class="collections-banner-target collections-target">
+								<img src="<?php echo $CDN_IMGS;?>img/collections/pinupgirl.png">
 							</a>
+							
 						</div>
 					</div>
 					<?php
@@ -116,7 +118,7 @@ commonHeaders();
 					<div class="row">
 						<div class="col-sm-12">
 							<a href="javascript:void(0);" data-id="8" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/belle_banner.jpg">
+								<img src="<?php echo $CDN_IMGS;?>img/collections/princess_banner.png">
 							</a>
 						</div>
 					</div>

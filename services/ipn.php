@@ -6,6 +6,7 @@ commonHeaders();
 // Read POST data
 // reading posted data directly from $_POST causes serialization
 // issues with array data in POST. Reading raw POST data from input stream instead.
+$pay_type = 'PayPal';
 $raw_post_data = file_get_contents('php://input');
 $raw_post_array = explode('&', $raw_post_data);
 $myPost = array();
