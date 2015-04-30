@@ -60,7 +60,19 @@ closeConnections();
 commonHeaders();
 ?><html lang="en">
 <head>
-	<?php echo commonMetaHeader();?>
+	<?php echo commonMetaHeader();
+	echo '<meta name="twitter:card" content="summary" />'
+		. '<meta name="twitter:site" content="http://coatandtails.com/" />'
+		. '<meta name="twitter:title" content="'.$target_merchandise[0]['merchandise_title'].'" />'
+		. '<meta name="twitter:description" content="Find cool products like this and more at Coatandtails.com" />'
+		. '<meta name="twitter:image" content="' . $CDN_IMGS . $target_merchandise[0]['merchandise_imgs_dir'] . '" />'
+		. '<meta name="twitter:url" content="http://www.coatandtails.com/product.php?id='.$target_id.'" />'
+		. '<meta property="og:title" content="Custom Pet Portraits" />'
+		. '<meta property="og:site_name" content="Coat and Tails"/>'
+		. '<meta property="og:url" content="http://www.coatandtails.com/product.php?id='.$target_id.'" />'
+		. '<meta property="og:description" content="Create your own personal pet portrait" />'
+		. '<meta property="fb:app_id" content="309437425817038" />';
+	?>
 </head>
 <body class="f prod">
 
@@ -104,6 +116,15 @@ commonHeaders();
 				}
 				if($target_merchandise[0]['merchandise_status'] == '0'){
 					echo '<a href="javascript:void(0);" class="btn btn-lg add-to-cart" data-id="' . $target_merchandise[0]['merchandise_id'] . '">Add to Cart</a>';
+					echo '<div class="share-btns"><div class="fb-share-button" data-href="http://www.coatandtails.com/product.php?id='.$target_id.'" data-layout="button"></div>';
+					echo '<a class="pin-btn" href="https://www.pinterest.com/pin/create/button/
+        ?url=http%3A%2F%2Fwww.coatandtails.com%2Fproduct.php?id='.$target_id.'
+        &media=' . $CDN_IMGS . $target_merchandise[0]['merchandise_imgs_dir'] . '
+        data-pin-do="buttonPin"
+        data-pin-description="'.$target_merchandise[0]['merchandise_title'].'"
+        data-pin-config="none">
+        <img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>';
+    				echo '<a class="tweet-btn" target="_blank" href="https://twitter.com/intent/tweet?text=Look%20what%20I%20saw%20at%20&url=http%3A%2F%2Fwww.coatandtails.com%2Fproduct.php?id='.$target_id.'">Tweet</a></div>';
 				}else if($target_merchandise[0]['merchandise_status'] == '2'){
 					echo '<div class="alert alert-danger">Sold Out</div>';
 				}else if($target_merchandise[0]['merchandise_status'] == '3'){

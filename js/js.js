@@ -777,7 +777,8 @@ $(document).ready(function(){
 					cache: false,
 					success:function(h){
 						if(h.result == 'success'){
-							$('.cart-section>.row').html('<div class="col-sm-12"><div class="alert alert-success">Your order was successfully processed.</div></div>');
+							$('.cart-section>.row').html('<div class="col-sm-12"><div class="alert alert-success">Your order was successfully processed.</div>');
+							$('.sharing-box').show();
 							writeToCsv();
 						}else if(h.result == 'error'){
 							alert('An error occurred when handling the payment for the order. ' + h.error_msg);

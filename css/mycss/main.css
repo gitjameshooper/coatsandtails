@@ -83,6 +83,44 @@ body{
   height: 20px ;
 }
 
+
+/* Product page */
+.sharing-box{
+  display: none;
+}
+.share-btns{
+  margin: 20px 0;
+  clear: both;
+  float: left;
+}
+.share-btns-header{
+  text-align: center;
+}
+.cart .share-btns {
+  margin: 20px auto;
+  clear: both;
+  float: none;
+  width: 180px;
+}
+a.tweet-btn {
+  padding: 4px 10px;
+  background: #2290bf;
+  color: #fff;
+  border-radius: 3px;
+  font-family: 'arial';
+  font-size: 12px;
+  margin: 0;
+  float: right;
+  margin-left: 15px;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+ 
+}
+.fb_iframe_widget {
+
+margin-right: 15px;
+}
 /* Content */
 .homepage {
   max-width:1000px;
