@@ -93,8 +93,14 @@ body{
   clear: both;
   float: left;
 }
+.share-btns .btns{
+  float: left;
+}
 .share-btns-header{
   text-align: center;
+}
+.share-btns .none{
+  display: none;
 }
 .cart .share-btns {
   margin: 20px auto;
@@ -117,10 +123,16 @@ a.tweet-btn {
   display: inline-block;
  
 }
+.prod .fb-share-button{
+  display: none;
+}
 .fb_iframe_widget {
 
 margin-right: 15px;
 }
+.share-btns .btns .fb_iframe_widget {
+  margin-right: 0px;
+  }
 /* Content */
 .homepage {
   max-width:1000px;

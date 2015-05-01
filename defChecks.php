@@ -357,8 +357,7 @@ function commonMetaHeader(){
 		. '<meta property="og:title" content="Custom Pet Portraits" />'
 		. '<meta property="og:site_name" content="Coat and Tails"/>'
 		. '<meta property="og:url" content="http://coatandtails.com/" />'
-		. '<meta property="og:description" content="Create your own personal pet portrait" />'
-		. '<meta property="fb:app_id" content="309437425817038" />';
+		. '<meta property="og:description" content="Create your own personal pet portrait" />';
  
 	}
 	if(($CURRENT_PAGE_NAME == 'Quiz') && isset($_GET['q'])){

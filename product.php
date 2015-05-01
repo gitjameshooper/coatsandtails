@@ -70,8 +70,7 @@ commonHeaders();
 		. '<meta property="og:title" content="Custom Pet Portraits" />'
 		. '<meta property="og:site_name" content="Coat and Tails"/>'
 		. '<meta property="og:url" content="http://www.coatandtails.com/product.php?id='.$target_id.'" />'
-		. '<meta property="og:description" content="Create your own personal pet portrait" />'
-		. '<meta property="fb:app_id" content="309437425817038" />';
+		. '<meta property="og:description" content="Create your own personal pet portrait" />';
 	?>
 </head>
 <body class="f prod">
@@ -124,7 +123,7 @@ commonHeaders();
         data-pin-description="'.$target_merchandise[0]['merchandise_title'].'"
         data-pin-config="none">
         <img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>';
-    				echo '<a class="tweet-btn" target="_blank" href="https://twitter.com/intent/tweet?text=Look%20what%20I%20saw%20at%20&url=http%3A%2F%2Fwww.coatandtails.com%2Fproduct.php?id='.$target_id.'">Tweet</a></div>';
+    				echo '<a class="tweet-btn" target="_blank" href="https://twitter.com/intent/tweet?text=Check%20this%20out!%20&url=http%3A%2F%2Fwww.coatandtails.com%2Fproduct.php?id='.$target_id.'">Tweet</a></div>';
 				}else if($target_merchandise[0]['merchandise_status'] == '2'){
 					echo '<div class="alert alert-danger">Sold Out</div>';
 				}else if($target_merchandise[0]['merchandise_status'] == '3'){

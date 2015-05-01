@@ -89,8 +89,7 @@ commonHeaders();
 		. '<meta property="og:title" content="Custom Pet Portraits" />'
 		. '<meta property="og:site_name" content="Coat and Tails"/>'
 		. '<meta property="og:url" content="http://www.coatandtails.com/clothes.php?id='.$target_collection.'" />'
-		. '<meta property="og:description" content="Create your own personal pet portrait" />'
-		. '<meta property="fb:app_id" content="309437425817038" />';
+		. '<meta property="og:description" content="Create your own personal pet portrait" />';
 	?>
 </head>
 <body class="f clothes">
@@ -270,15 +269,10 @@ commonHeaders();
 
     </div>
     	<?php  
-				echo '<div class="share-btns row"><div class="col-sm-12 col-sm-offset-2"><div class="fb-share-button" data-href="http://www.coatandtails.com/clothes.php?id='.$target_collection.'" data-layout="button"></div>';
-					echo '<a class="pin-btn" href="https://www.pinterest.com/pin/create/button/
-        ?url=http%3A%2F%2Fwww.coatandtails.com%2Fclothes.php?id='.$target_collection.'" 
-        data-pin-media="' . $CDN_IMGS . $clothes[0]['clothes_' . $animal_options[$animal]] . '" 
-        data-pin-do="buttonPin"
-        data-pin-description="Make Custom Pet Portraits"
-        data-pin-config="none">
-        <img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>';
-    				echo '<a class="tweet-btn" target="_blank" href="https://twitter.com/intent/tweet?text=Look%20what%20I%20saw%20at%20&url=http%3A%2F%2Fwww.coatandtails.com%2Fclothes.php?id='.$target_collection.'">Tweet</a></div></div>';
+				echo '<div class="share-btns row"><div class="col-sm-12 col-sm-offset-3"><div class="btns"><div class="fb-share-button" data-href="http://www.coatandtails.com/clothes.php?id='.$target_collection.'" data-layout="button"></div></div>';
+					echo '<div class="btns none"><a class="pin-btn" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.coatandtails.com%2Fclothes.php?id='.$target_collection.'&media='.$CDN_IMGS . $clothes[0]['clothes_' . $animal_options[$animal]].'" data-pin-do="buttonPin" data-pin-description="Shop at Coat and Tails" data-pin-config="none">
+        				<img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a></div>';
+    				echo '<div class="btns"><a class="tweet-btn" target="_blank" href="https://twitter.com/intent/tweet?text=Check%20this%20out!%20&url=http%3A%2F%2Fwww.coatandtails.com%2Fclothes.php?id='.$target_collection.'">Tweet</a></div></div></div>';
 			?>
 	</div>
 
