@@ -6,7 +6,7 @@ commonHeaders();
 // Read POST data
 // reading posted data directly from $_POST causes serialization
 // issues with array data in POST. Reading raw POST data from input stream instead.
-$pay_type = 'PayPal';
+
 $raw_post_data = file_get_contents('php://input');
 $raw_post_array = explode('&', $raw_post_data);
 $myPost = array();
@@ -222,6 +222,9 @@ if (curl_errno($ch) != 0){ // cURL error
 		$subject = "Refund for Order #" . $item_number;
 	}else{
 		$subject = "Payment for Order #" . $item_number;
+		$pay_type = 'paypal';
+		// email receipt
+	    include("email_receipt.php"); 
 	}
 
 	// if (strcmp ($res, "VERIFIED") == 0) {
@@ -257,5 +260,7 @@ if (curl_errno($ch) != 0){ // cURL error
 }
 
 @mail($ADMIN_EMAIL, $subject, $msg,$hds);
+
+
 exit();
 ?>

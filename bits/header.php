@@ -17,7 +17,7 @@
 </script>
 <div class="navbar main-navbar" role="navigation">
     <div class="container-fluid">
-		<div class="navbar-header">
+    	<div class="navbar-header">
 			<button type="button" class="navbar-toggle">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
@@ -37,7 +37,8 @@
 						<a href="<?php echo $BASE_URL;?>collections.php?g=0" class="dropdown-toggle">Men</a>
 						<ul class="dropdown-menu grouped" role="menu">
 							<li role="presentation" class="dropdown-header">Choose a Collection.</li>
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>collections.php?g=0">View All</a></li>
+							<li role="presentation" style="font-size:20px;"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>collections.php?g=0">View All Collections</a></li>
+							<li role="presentation" style="font-size:20px;"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>gallery.php">View Gallery</a></li>
 							<?php
 							$i = 0;
 							for($i;$i<$mens_collections_count;$i++){
@@ -64,7 +65,8 @@
 						<a href="<?php echo $BASE_URL;?>collections.php?g=1" class="dropdown-toggle">Women</a>
 						<ul class="dropdown-menu grouped" role="menu">
 							<li role="presentation" class="dropdown-header">Choose a Collection.</li>
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>collections.php?g=1">View All</a></li>
+							<li role="presentation" style="font-size:20px;"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>collections.php?g=1">View All Collections</a></li>
+							<li role="presentation" style="font-size:20px;"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>gallery.php">View Gallery</a></li>
 							<?php
 							$i = 0;
 							for($i;$i<$womens_collections_count;$i++){
@@ -114,19 +116,24 @@
 				<li>
 					<a href="<?php echo $BASE_URL;?>about.php" class="dropdown-toggle">Info</a>
 					<ul class="dropdown-menu" role="menu">
+	                 <li role="presentation" class="dropdown-header">What's up?</li>
     					<li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);" id="contact_link">Contact</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>about.php">About Coat &amp; Tails</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>info_artists.php">Artist Application</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>faq.php">FAQ</a></li>
 						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>pricing.php">Pricing</a></li>
 					</ul>
 					 
 				</li>
 				<li>
-					<a href="<?php echo $BASE_URL;?>fundraisers.php" class="dropdown-toggle">Philanthropomorphy</a>
-					<ul class="dropdown-menu" role="menu">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>fundraisers.php">Fundraisers</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>photo_contest.php">Photo Contest</a></li>
+					<a href="<?php echo $BASE_URL;?>#" class="dropdown-toggle">Fun</a>
+					
+                    <ul class="dropdown-menu" role="menu">
+                    <li role="presentation" class="dropdown-header">Let's get weird.</li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>quiz.php">Personality Test</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>fundraisers.php">Philanthropomorphize</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>wall.php">Wall of Fame & Shame</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="http://blog.coatandtails.com/">Blog</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>info_artists.php">Let's Collaborate</a></li>
 					</ul>
 					 
 				</li>

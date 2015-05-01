@@ -329,7 +329,7 @@ function commonMetaHeader(){
 		. '<link rel="icon" href="' . $CDN_IMGS . 'img/favicon.ico" type="image/x-icon">'
 		. '<link rel="shortcut icon" href="' . $CDN_IMGS . 'img/favicon.ico" type="image/x-icon">'
 		. '<meta http-equiv="X-Frame-Options" content="DENY">'
-		. '<link href="' . substr($BASE_URL, 0, -1) . $_SERVER['PHP_SELF'] . '" rel="canonical">'
+		. '<link href="' . substr($BASE_URL, 0, -1) . $_SERVER['PHP_SELF'] . '">'
 		. '<link href="http://fonts.googleapis.com/css?family=IM+Fell+English" rel="stylesheet" type="text/css">'
 		. '<link href="' . $CDN_ASSETS . 'css/' . $STATIC_FILES['main_css'] . $GZ . '.css?v=' . $ASSET_VERSION . '" rel="stylesheet">'
 		. '<link href="' . $CDN_ASSETS . 'css/mycss/about.css?v=' . $ASSET_VERSION . '" rel="stylesheet" />'
@@ -356,6 +356,7 @@ function commonMetaHeader(){
 		. '<meta name="twitter:url" content="http://coatandtails.com/" />'
 		. '<meta property="og:title" content="Custom Pet Portraits" />'
 		. '<meta property="og:site_name" content="Coat and Tails"/>'
+		. '<meta property="og:image" content="https://s3.amazonaws.com/coatandtails/img/baller_banner.jpg" />'
 		. '<meta property="og:url" content="http://coatandtails.com/" />'
 		. '<meta property="og:description" content="Create your own personal pet portrait" />';
  

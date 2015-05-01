@@ -93,9 +93,7 @@ body{
   clear: both;
   float: left;
 }
-.share-btns .btns{
-  float: left;
-}
+ 
 .share-btns-header{
   text-align: center;
 }
@@ -106,7 +104,7 @@ body{
   margin: 20px auto;
   clear: both;
   float: none;
-  width: 180px;
+  width: 200px;
 }
 a.tweet-btn {
   padding: 4px 10px;
@@ -117,22 +115,17 @@ a.tweet-btn {
   font-size: 12px;
   margin: 0;
   float: right;
-  margin-left: 15px;
   line-height: 1;
   text-decoration: none;
   display: inline-block;
  
 }
-.prod .fb-share-button{
-  display: none;
+.btn-wrap {
+  display: inline-block;
+  margin-right: 15px;
+  float: left;
 }
-.fb_iframe_widget {
-
-margin-right: 15px;
-}
-.share-btns .btns .fb_iframe_widget {
-  margin-right: 0px;
-  }
+ 
 /* Content */
 .homepage {
   max-width:1000px;
