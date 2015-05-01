@@ -13,7 +13,7 @@
           <td colspan=2 style="text-align:center;"><img src="http://s3.amazonaws.com/coatandtails/img/logo.png" alt="Coat and Tails"></td>
         </tr>
         <tr>
-          <td>Hi <span style="text-transform: capitalize;">'.$first_name.'!</span> <br /><br />
+          <td>Hi <span style="text-transform: capitalize;">'.$details['order_details']['first_name'].'!</span> <br /><br />
         Thanks for the order! Just wanted to let you know that I received it, and that I\'ll be in touch soon with a status.<br /><br />
          <br /><br />
          Thanks again!<br /><br /><br />
@@ -28,7 +28,7 @@
          </td></tr>';
         $rmsgF = '</table></body ></html>';
  
-        $rsubject = "Thanks! Your order number is " . $order_id;
+        $rsubject = "Thanks! Your order number is " . $item_number;
 
         $rmsg=$rmsgH.$rmsgF;
          @mail($ADMIN_EMAIL, $rsubject, $rmsg, $rhds);
