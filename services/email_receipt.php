@@ -10,7 +10,7 @@
         $rmsgH = '<html><head><title>' . $SITE_NAME . '</title></head><body>
         <table width="100%" border="0" cellpadding=0 cellspacing=0 style="font-family:Arial; font-size: 16px;">
         <tr height="40">
-          <td colspan=2 style="text-align:center;"><img src="https://s3.amazonaws.com/coatandtails/img/logo.png" alt="Coat and Tails"></td>
+          <td colspan=2 style="text-align:center;"><img src="http://s3.amazonaws.com/coatandtails/img/logo.png" alt="Coat and Tails"></td>
         </tr>
         <tr>
           <td>Hi <span style="text-transform: capitalize;">'.$first_name.'!</span> <br /><br />

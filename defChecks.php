@@ -356,8 +356,8 @@ function commonMetaHeader(){
 		. '<meta name="twitter:url" content="http://coatandtails.com/" />'
 		. '<meta property="og:title" content="Custom Pet Portraits" />'
 		. '<meta property="og:site_name" content="Coat and Tails"/>'
-		. '<meta property="og:image" content="https://s3.amazonaws.com/coatandtails/img/baller_banner.jpg" />'
-		. '<meta property="og:url" content="http://coatandtails.com/" />'
+		. '<meta property="og:image" content="http://s3.amazonaws.com/coatandtails/img/baller_banner.jpg" />'
+		. '<meta property="og:url" content="http://www.coatandtails.com/" />'
 		. '<meta property="og:description" content="Create your own personal pet portrait" />';
  
 	}

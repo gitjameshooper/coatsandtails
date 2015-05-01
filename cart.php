@@ -635,7 +635,7 @@ commonHeaders();
 		<h3 class="share-btns-header">Share Coat &amp; Tails with Your Friends</h3>
 		<div class="share-btns">
 		 <div class="btn-wrap"><div class="fb-share-button" data-href="http://www.coatandtails.com/" data-layout="button"></div></div>
-		 <div class="btn-wrap"> <a class="pin-btn" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.coatandtails.com&media=http://s3.amazonaws.com/coatandtails/img/logo.png" data-pin-do="buttonPin" data-pin-description="Shop at Coat and Tails" data-pin-config="none">
+		 <div class="btn-wrap"> <a class="pin-btn" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.coatandtails.com&media=http://s3.amazonaws.com/coatandtails/img/baller_banner.jpg" data-pin-do="buttonPin" data-pin-description="Shop at Coat and Tails" data-pin-config="none">
         				<img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a></div>
     	 <div class="btn-wrap"><a class="tweet-btn" target="_blank" href="https://twitter.com/intent/tweet?text=Shop%20at&url=http%3A%2F%2Fwww.coatandtails.com">Tweet</a></div>
 		</div>
