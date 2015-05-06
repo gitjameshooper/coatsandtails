@@ -39,13 +39,10 @@ commonHeaders();
 
 	<ul class=leaders>
 		<li><span>8" x 10"</span>
-			<span>$40.00</span>
+			<span>$30.00</span>
+		
 		<li><span>11" x 14"</span>
-			<span>$68.30</span>
-		<li><span>16" x 20"</span>
-			<span>$127.92</span>
-		<li><span>20" x 24"</span>
-			<span>$168.00</span>
+			<span>$45.00</span>
 	</ul>
 	</ul>
 </div>
@@ -57,13 +54,10 @@ commonHeaders();
 
 	<ul class=leaders>
 		<li><span>8" x 10"</span>
-			<span>$70.00</span>
+			<span>$43.75</span>
+		
 		<li><span>11" x 14"</span>
-			<span>$121.30</span>
-		<li><span>16" x 20"</span>
-			<span>$224.00</span>
-		<li><span>20" x 24"</span>
-			<span>$294.00</span>
+			<span>$61.25</span>
 	</ul>
 	</ul>
 </div>
@@ -75,13 +69,10 @@ commonHeaders();
 
 	<ul class=leaders>
 		<li><span>8" x 10"</span>
-			<span>$100.00</span>
+			<span>$62.50</span>
+		
 		<li><span>11" x 14"</span>
-			<span>$173.25</span>
-		<li><span>16" x 20"</span>
-			<span>$220.00</span>
-		<li><span>20" x 24"</span>
-			<span>$320.00</span>
+			<span>$87.50</span>
 	</ul>
 	</ul>
 </div>
@@ -93,13 +84,10 @@ commonHeaders();
 
 	<ul class=leaders>
 		<li><span>8" x 10"</span>
-			<span>$130.00</span>
+			<span>$81.25</span>
+		
 		<li><span>11" x 14"</span>
-			<span>$225.25</span>
-		<li><span>16" x 20"</span>
-			<span>$416.00</span>
-		<li><span>20" x 24"</span>
-			<span>$546.00</span>
+			<span>$113.75</span>
 	</ul>
 	</ul>
 	

@@ -117,7 +117,7 @@ commonHeaders();
 					?>
 					<div class="row">
 						<div class="col-sm-12">
-							<a href="javascript:void(0);" data-id="8" class="collections-banner-target collections-target">
+							<a href="javascript:void(0);" data-id="12" class="collections-banner-target collections-target">
 								<img src="<?php echo $CDN_IMGS;?>img/collections/princess_banner.png">
 							</a>
 						</div>

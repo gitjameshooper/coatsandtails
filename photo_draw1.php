@@ -101,7 +101,7 @@ commonHeaders();
 				</div>
 
 				<div class="row">
-						<a href="<?php echo $_SERVER['PHP_SELF'];?>?m=0" style="max-width:50%;margin-right:auto;margin-left:auto;margin-top: 25px;" class="btn btn-lg btn-block btn-inverted">Get a Photo Edit ></a>
+						<a href="<?php echo $_SERVER['PHP_SELF'];?>?m=1" style="max-width:50%;margin-right:auto;margin-left:auto;margin-top: 25px;" class="btn btn-lg btn-block btn-inverted">Get a Drawing ></a>
 				</div>
 
 
