@@ -88,9 +88,8 @@ commonHeaders();
 		. '<meta name="twitter:url" content="http://www.coatandtails.com/clothes.php?id='.$target_collection.'" />'
 		. '<meta property="og:title" content="Custom Pet Portraits" />'
 		. '<meta property="og:site_name" content="Coat and Tails"/>'
-		. '<meta property="og:image" content="'.$BASE_URL.$clothes[0]['clothes_dog'].'" />'
-		. '<meta property="og:url" content="http://www.coatandtails.com/clothes.php?id='.$target_collection.'" />'
-		. '<meta property="og:description" content="Create your own personal pet portrait" />';
+		. '<meta property="og:image" content="'.$CDN_IMGS.'img/facebook_share_image.jpg" />'
+		. '<meta property="og:description" content="Personify your pet with Coat & Tails Pet Portraits" />';
 	?>
 </head>
 <body class="f clothes">
