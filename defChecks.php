@@ -314,7 +314,7 @@ function commonHeaders(){
 }
 
 function commonMetaHeader(){
-	global $CURRENT_PAGE_TITLE, $SITE_NAME, $PAGE_DESCRIPTION, $CURRENT_PAGE_NAME, $IS_ADMIN_PAGE, $LOGGED, $CDN_IMGS, $CDN_ASSETS, $GZ, $BASE_URL, $STATIC_FILES, $ASSET_VERSION;
+	global $CURRENT_PAGE_TITLE, $META_PAGE, $SITE_NAME, $PAGE_DESCRIPTION, $CURRENT_PAGE_NAME, $IS_ADMIN_PAGE, $LOGGED, $CDN_IMGS, $CDN_ASSETS, $GZ, $BASE_URL, $STATIC_FILES, $ASSET_VERSION;
 	$CURRENT_PAGE_TITLE = $SITE_NAME;
 	$current_page_description = $PAGE_DESCRIPTION . ' at ' . $SITE_NAME;
 	if($CURRENT_PAGE_NAME !== 'Home'){
@@ -345,21 +345,7 @@ function commonMetaHeader(){
 		. '<script type="text/javascript" async src="//platform.twitter.com/widgets.js"></script>'
 		. '<![endif]-->';
 	 
-	if ( strpos($_SERVER['PHP_SELF'], 'clothes') !== false ||  strpos($_SERVER['PHP_SELF'], 'product') !== false) {
-		
-	 }else{// generic twitter card
-	$payload .= '<meta name="twitter:card" content="summary" />'
-		. '<meta name="twitter:site" content="http://coatandtails.com/" />'
-		. '<meta name="twitter:title" content="Custom Pet Portraits" />'
-		. '<meta name="twitter:description" content="Create your own personal pet portrait" />'
-		. '<meta name="twitter:image" content="http://www.coatandtails.com/img/samples/photoedits/small/ashado.jpg" />'
-		. '<meta name="twitter:url" content="http://coatandtails.com/" />'
-		. '<meta property="og:title" content="Custom Pet Portraits" />'
-		. '<meta property="og:site_name" content="Coat and Tails"/>'
-		. '<meta property="og:image" content="'.$CDN_IMGS.'img/baller_banner.jpg" />'
-		. '<meta property="og:description" content="Create your own personal pet portrait" />';
- 
-	}
+	 
 	if(($CURRENT_PAGE_NAME == 'Quiz') && isset($_GET['q'])){
 	  $target_quiz = isSetAndNotDefault('', 'GET', 'q', false);
 
@@ -372,8 +358,17 @@ function commonMetaHeader(){
 		$payload .= '<meta name="description" content="If my ' . $animals[$result_animal] . ' wore clothes, this would be ' . $possessive_genders[$result_gender] . ' outfit. What would yours wear?">'
 			. '<meta property="og:image" content="' . $CDN_IMGS . 'img/quiz/' . $target_quiz . '.jpg" />'
 			. '<meta name="twitter:image" content="' . $CDN_IMGS . 'img/quiz/' . $target_quiz . '.jpg">';
-	}else{
-		$payload .= '<meta name="description" content="' . $current_page_description . '">';
+	}else if($META_PAGE != 'Clothes' && $META_PAGE != 'Product'){
+	 
+		$payload .= '<meta name="twitter:card" content="summary_large_image">'
+		. '<meta name="twitter:site" content="http://coatandtails.com/" />'
+		. '<meta name="twitter:title" content="Custom Pet Portraits" />'
+		. '<meta name="twitter:description" content="Create your own personal pet portrait" />'
+		. '<meta name="twitter:image" content="'.$CDN_IMGS.'img/baller_banner.jpg" />'
+		. '<meta property="og:title" content="Custom Pet Portraits" />'
+		. '<meta property="og:site_name" content="Coat and Tails"/>'
+		. '<meta property="og:image" content="'.$CDN_IMGS.'img/baller_banner.jpg" />'
+		. '<meta property="og:description" content="Create your own personal pet portrait" />';
 	}
 	if(!$IS_ADMIN_PAGE){
 		$payload .= '<base href="' . $BASE_URL . '" />';

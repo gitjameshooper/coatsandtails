@@ -1,5 +1,6 @@
 <?php
 $PAGE_DESCRIPTION = $CURRENT_PAGE_NAME = $CURRENT_PAGE_TYPE = 'Clothes';
+$META_PAGE = 'Clothes';
 
 include_once(dirname(__FILE__) . '/defChecks.php');
 
@@ -80,10 +81,10 @@ commonHeaders();
 <head>
 	<?php echo commonMetaHeader(); 
 	  
-	echo '<meta name="twitter:card" content="summary" />'
+	echo '<meta name="twitter:card" content="summary_large_image">'
 		. '<meta name="twitter:site" content="http://coatandtails.com/" />'
 		. '<meta name="twitter:title" content="Custom Pet Portraits" />'
-		. '<meta name="twitter:description" content="Find cool products like this and more at Coatandtails.com" />'
+		. '<meta name="twitter:description" content="Personify your pet with Coat & Tails Pet Portraits" />'
 		. '<meta name="twitter:image" content="'.$BASE_URL.$clothes[0]['clothes_dog'].'" />'
 		. '<meta name="twitter:url" content="http://www.coatandtails.com/clothes.php?id='.$target_collection.'" />'
 		. '<meta property="og:title" content="Custom Pet Portraits" />'

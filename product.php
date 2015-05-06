@@ -1,5 +1,6 @@
 <?php
 $PAGE_DESCRIPTION = $CURRENT_PAGE_NAME = $CURRENT_PAGE_TYPE = 'Merchandise';
+$META_PAGE = 'Product';
 
 $status_options = array('Active', 'Hidden', 'Sold Out', 'Coming Soon');
 $variants = array();
@@ -61,7 +62,7 @@ commonHeaders();
 ?><html lang="en">
 <head>
 	<?php echo commonMetaHeader();
-	echo '<meta name="twitter:card" content="summary" />'
+	echo '<meta name="twitter:card" content="summary_large_image">'
 		. '<meta name="twitter:site" content="http://coatandtails.com/" />'
 		. '<meta name="twitter:title" content="'.$target_merchandise[0]['merchandise_title'].'" />'
 		. '<meta name="twitter:description" content="Find cool products like this and more at Coatandtails.com" />'
