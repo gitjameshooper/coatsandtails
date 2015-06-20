@@ -436,7 +436,6 @@ $(document).ready(function(){
 							}else{
 								$('.cart-table-host').html('<div class="alert alert-danger">You do not have any items pending in the cart.</div>');
 							}
-							console.log('cool');
 						}else if(h.result == 'error'){
 							if(h.error_msg == 'out_of_stock'){
 								alert('This item is out of stock.');
@@ -678,7 +677,7 @@ $(document).ready(function(){
 					comment: comment,
 					coupon: coupon
 					};
-					
+					writeToCsv();
 				$.ajax({
 					type: "POST",
 					url: window.init.base_url + "services/paypal_payment.php",
@@ -691,9 +690,9 @@ $(document).ready(function(){
 					cache: false,
 					success:function(h){
 						if(h.result == 'success'){
+							
 							$('body').html(h.data);
 							document.f.submit();
-							writeToCsv();
 						}else if(h.result == 'error'){
 							alert('An error occurred when handling the payment for the order.');
 						}
@@ -734,7 +733,7 @@ $(document).ready(function(){
 					coupon: coupon
 					};
 					
-
+					writeToCsv();
 				$.ajax({
 					type: "POST",
 					url: window.init.base_url + "services/cc_payment.php",
@@ -777,9 +776,10 @@ $(document).ready(function(){
 					cache: false,
 					success:function(h){
 						if(h.result == 'success'){
+							
 							$('.cart-section>.row').html('<div class="col-sm-12"><div class="alert alert-success">Your order was successfully processed.</div>');
 							$('.sharing-box').show();
-							writeToCsv();
+							
 						}else if(h.result == 'error'){
 							alert('An error occurred when handling the payment for the order. ' + h.error_msg);
 							// window.top.location = window.init.base_url;
