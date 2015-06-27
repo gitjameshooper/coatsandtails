@@ -73,10 +73,11 @@
                $rmsg .= "<b>Product:</b> " . $items[$i]['itemName']
               . "<br /><b>Description:</b> " . $items[$i]['description'];
             }
+
               $rmsg .= "<br /><b>Amount:</b> " . $items[$i]['amount'];
             
-            if(isset($items[$i]['size'])){
-             // $rmsg .= "<br /><b>Size:</b> " . $items[$i]['size'];
+            if(isset($items[$i]['size']) && $items[$i]['type'] == 'merch'){
+               $rmsg .= "<br /><b>Size:</b> " . $items[$i]['size'];
             }
             if(isset($items[$i]['clothe'])){
               $pets_query = $DB->query("SELECT * FROM order_pet LEFT JOIN clothes ON clothes.clothes_id=order_pet.order_pet_clothe_ref_id WHERE order_pet_session_id='$stored_session'");
