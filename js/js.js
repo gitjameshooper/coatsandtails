@@ -677,9 +677,10 @@ $(document).ready(function(){
 					comment: comment,
 					coupon: coupon
 					};
-					writeToCsv();
+					 
 				$.ajax({
 					type: "POST",
+				    beforeSend: writeToCsv(),
 					url: window.init.base_url + "services/paypal_payment.php",
 					data: {
 						total: window.cart['total'],
@@ -733,9 +734,10 @@ $(document).ready(function(){
 					coupon: coupon
 					};
 					
-					writeToCsv();
+					 
 				$.ajax({
 					type: "POST",
+					beforeSend: writeToCsv(),
 					url: window.init.base_url + "services/cc_payment.php",
 					data: {
 						total: window.cart['total'],
