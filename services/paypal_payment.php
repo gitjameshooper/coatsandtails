@@ -21,7 +21,6 @@ if(isset($_POST["total"]) && isset($_POST["shipping"]) && isset($_POST["discount
 
     $d = base64_encode($d);
 
-    $subtotal = number_format($total, 2);
     $shipping = number_format($shipping, 2);
     $discount = number_format($discount, 2);
     $total = number_format($total, 2);

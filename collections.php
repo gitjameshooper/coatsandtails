@@ -27,7 +27,7 @@ commonHeaders();
 			</div>
 		</div>
 		<div class="row">
-			<p class="title-caption">Use this section to choose the clothes and accessories that best suit your pet's personality.</p>
+			<p class="title-caption">Choose a theme that best reflects the pet's personality.</p>
 		</div>
 	</div>
 
@@ -35,7 +35,6 @@ commonHeaders();
 		<?php include_once(dirname(__FILE__) . '/bits/subheader.php');?>
 	</div>
 	<div class="container w-bg center">
-		<h3 style="padding-bottom:15px;">First choose a collection, or theme, for your portrait.</h3>
         <div class="row">
 			<div class="col-sm-2 hidden-xs">
 				<div class="collections-menu">
@@ -69,71 +68,71 @@ commonHeaders();
 				<?php
 				if($target_gender == '0'){ // male gender targeted
 					?>
-					<div class="row">
-						<div class="col-sm-12">
-							<a href="javascript:void(0);" data-id="1" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/baller_banner.jpg">
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">
-							<a href="javascript:void(0);" data-id="7" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/soldier_banner.jpg">
-							</a>
-						</div>
-						<div class="col-sm-6">
-							<a href="javascript:void(0);" data-id="13" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/noir_banner.jpg">
-							</a>
-						</div>
-					</div>
+					<div class="collections">
+						<h3>Themes for Male Pets</h3>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=1"><img src="img/clothes/1/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=2"><img src="img/clothes/2/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+					<a href="<?php echo $BASE_URL;?>clothes.php?id=20"><img src="img/clothes/20/cover.png" style="padding:5px;" width="295" height="350" border="0" /></a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=22"><img src="img/clothes/22/cover.png" style="padding:5px;" width="295" height="350" border="0" /></a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=21"><img src="img/clothes/21/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=13"><img src="img/clothes/13/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=11"><img src="img/clothes/11/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=9"><img src="img/clothes/9/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=4"><img src="img/clothes/4/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=7"><img src="img/clothes/7/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=3"><img src="img/clothes/3/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+
+  
+  </div> 
 					<?php
 				}else if($target_gender == '1'){ // female gender targeted
 					?>
-					<div class="row">
-						<div class="col-sm-12">
-							<a href="javascript:void(0);" data-id="12" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/collections/princess_banner.png">
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">
-							<a href="javascript:void(0);" data-id="8" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/collections/southernbelle.png">
-							</a>
-							
-						</div>
-						<div class="col-sm-6">
-							<a href="javascript:void(0);" data-id="15" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/collections/pinupgirl.png">
-							</a>
-							
-						</div>
-					</div>
+					<div class="collections">
+						<h3>Themes for Female Pets</h3>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=19"><img src="img/clothes/19/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=18"><img src="img/clothes/18/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+					<a href="<?php echo $BASE_URL;?>clothes.php?id=16"><img src="img/clothes/16/cover.png" style="padding:5px;" width="295" height="350" border="0" /></a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=15"><img src="img/clothes/15/cover.png" style="padding:5px;" width="295" height="350" border="0" /></a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=14"><img src="img/clothes/14/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=12"><img src="img/clothes/12/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=8"><img src="img/clothes/8/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    
+
+  
+  </div> 
 					<?php
 				}else{ // no gender targeted
 					?>
-					<div class="row">
-						<div class="col-sm-12">
-							<a href="javascript:void(0);" data-id="12" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/collections/princess_banner.png">
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">
-							<a href="javascript:void(0);" data-id="7" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/soldier_banner.jpg">
-							</a>
-						</div>
-						<div class="col-sm-6">
-							<a href="javascript:void(0);" data-id="13" class="collections-banner-target collections-target">
-								<img src="<?php echo $CDN_IMGS;?>img/noir_banner.jpg">
-							</a>
-						</div>
-					</div>
+					<div class="collections">
+						<h3>Themes for Male Pets</h3>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=1"><img src="img/clothes/1/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=2"><img src="img/clothes/2/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+					<a href="<?php echo $BASE_URL;?>clothes.php?id=20"><img src="img/clothes/20/cover.png" style="padding:5px;" width="295" height="350" border="0" /></a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=22"><img src="img/clothes/22/cover.png" style="padding:5px;" width="295" height="350" border="0" /></a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=21"><img src="img/clothes/21/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=13"><img src="img/clothes/13/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=11"><img src="img/clothes/11/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=9"><img src="img/clothes/9/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=4"><img src="img/clothes/4/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=7"><img src="img/clothes/7/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=3"><img src="img/clothes/3/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+
+  
+  </div> 
+		
+		<div class="collections">
+						<h3>Themes for Female Pets</h3>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=19"><img src="img/clothes/19/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=18"><img src="img/clothes/18/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+					<a href="<?php echo $BASE_URL;?>clothes.php?id=16"><img src="img/clothes/16/cover.png" style="padding:5px;" width="295" height="350" border="0" /></a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=15"><img src="img/clothes/15/cover.png" style="padding:5px;" width="295" height="350" border="0" /></a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=14"><img src="img/clothes/14/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+    				<a href="<?php echo $BASE_URL;?>clothes.php?id=12"><img src="img/clothes/12/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    <a href="<?php echo $BASE_URL;?>clothes.php?id=8"><img src="img/clothes/8/cover.png" style="padding:5px;" width="295" height="350" border="0" /> </a>
+  				    
+
+  
+  </div> 
 					<?php
 				}
 				?>
@@ -176,3 +175,4 @@ commonHeaders();
 	<?php include_once(dirname(__FILE__) . '/bits/footer.php');?>
 </body>
 </html>
+					

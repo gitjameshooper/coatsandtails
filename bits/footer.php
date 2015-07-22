@@ -3,7 +3,7 @@
 	<div class="box">
 		<div class="inner">
 			<div class="title">
-				Portraits
+				Custom Portraits
 			</div>
 				<ul>
 					<li class="footer-links">
@@ -13,7 +13,7 @@
 						<a class="footer-links" href="<?php echo $BASE_URL;?>collections.php?g=1" title="Collections for Women ">Women</a>
 					</li>
 					<li class="footer-links">
-						<a class="footer-links" href="<?php echo $BASE_URL;?>request_order.php" title="Custom Portraits ">Custom</a>
+						<a class="footer-links" href="<?php echo $BASE_URL;?>collections.php" title="All">All</a>
 					</li>
 				</ul>
 		</div>

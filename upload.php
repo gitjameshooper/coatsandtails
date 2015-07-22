@@ -147,16 +147,16 @@ commonHeaders();
 						<div class="col-sm-4 upload-info visible-xs">
 							<h2>Photo Requirements</h2>
 							<div class="header-desc">
-								The photo needs to be taken at eye-level and straight on, so it's mostly symmetric.<br/><br/>
-								I will only draw what i can see in the photo you upload. If i don't see whiskers, for instance, no whiskers will be drawn. So please choose your photos carefully.
+								The photo needs to be taken at eye-level and straight on, so it's mostly symmetrical.<br/><br/>
+								I will only draw what I can see in the photo you upload. If I don't see whiskers, for instance, no whiskers will be drawn. So please choose your photos carefully.
 							</div>
 						</div>
 						<div class="col-sm-8">
 							<?php
 							if($order_pet_query_count > 1){
-								echo '<img class="res-img" src="' . $CDN_IMGS . 'img/' . $target_mode_options[$target_mode] . '_mode.jpg">';
+								echo '<img class="res-img" style="width:70%" src="' . $CDN_IMGS . 'img/cute_dog.jpg">';
 							}else{
-								echo '<img class="res-img" src="' . $CDN_IMGS . 'img/' . $target_mode_options[$target_mode] . '_mode.jpg">';
+								echo '<img class="res-img" style="width:70%" src="' . $CDN_IMGS . 'img/cute_dog.jpg">';
 							}
 							?>
 						</div>

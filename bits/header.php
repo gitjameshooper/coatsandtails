@@ -89,15 +89,6 @@
 				}
 				?>
 				<li>
-					<a href="<?php echo $BASE_URL;?>gallery.php" class="dropdown-toggle">Custom</a>
-					<ul class="dropdown-menu" role="menu">
-						<li role="presentation" class="dropdown-header">Start from scratch. What would you like?</li>
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>gallery.php">View Gallery</a></li>
-						<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>request_order.php">Submit your Request</a></li>
-					</ul>
-					 
-				</li>
-				<li>
 					<a href="<?php echo $BASE_URL;?>merchandise.php" class="dropdown-toggle">Merchandise</a>
 					<ul class="dropdown-menu" role="menu">
 						<li role="presentation" class="dropdown-header">Oh and I also make shirts and stuff</li>
@@ -133,7 +124,6 @@
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>fundraisers.php">Philanthropomorphize</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>wall.php">Wall of Fame & Shame</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="http://blog.coatandtails.com/">Blog</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $BASE_URL;?>info_artists.php">Let's Collaborate</a></li>
 					</ul>
 					 
 				</li>

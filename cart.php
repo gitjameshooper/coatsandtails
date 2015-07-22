@@ -556,7 +556,7 @@ commonHeaders();
 								<div class="col-sm-12">
 									<div class="form-group">
 										<div class="col-sm-12">
-											<input type="checkbox" id="pick_up" value="1"> <label for="pick_up">I want to pick it up in person.</label>
+											<input type="checkbox" id="pick_up" value="1"> <label for="pick_up">Pickup.</label><p> Tee shirts are picked up in South Austin and everything else is picked up in North Austin. The address will be provided when the order is placed.</p>
 										</div>
 									</div>
 								</div>
@@ -589,7 +589,7 @@ commonHeaders();
 
 								<div class="col-sm-12">
 									<div class="form-group">
-										<label for="comment" class="col-sm-12 control-label">Deadline/Comments</label>
+										<label for="comment" class="col-sm-12 control-label">How did you hear about Coat & Tails?</label>
 										<div class="col-sm-12">
 											<textarea id="comment" name="comment" class="form-control" rows="5"></textarea>
 										</div>

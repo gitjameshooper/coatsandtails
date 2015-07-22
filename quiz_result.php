@@ -57,7 +57,7 @@ commonHeaders();
 						<img class="res-img" src="<?php echo $CDN_IMGS;?>img/quiz/<?php echo $_SESSION['quiz'];?>.jpg">
 					</div>
 					<div class="col-sm-4">
-						<a href="<?php echo $BASE_URL;?>photo_draw.php" class="btn btn-lg btn-inverted btn-shadow btn-block">Order this Portrait</a>
+						<a href="<?php echo $BASE_URL;?>clothes.php" class="btn btn-lg btn-inverted btn-shadow btn-block">Order this Portrait</a>
 						<div class="link-desc">Click here to have me draw your pet wearing this outfit.</div>
 
 						<div style="text-align:left;" class="visible-xs clothe-desc"><?php echo stripslashes($clothes_query[0]['clothes_desc']);?></div>
@@ -71,15 +71,15 @@ commonHeaders();
 				</div>
 
 </div>
-            
+
 			<div class="col-sm-9 col-sm-offset-2 hidden-xs">
-            
+
 				<div class="clothe-desc"><?php echo stripslashes($clothes_query[0]['clothes_desc']);?>
-                <h2>What other celebrities should I include here? (Include the type, plz, since this box is applicable to all results.)</h2>
-                <div class="fb-comments" data-href="http://www.coatandtails.com/v2/quiz_result.php" data-width="800" data-numposts="50" data-colorscheme="light"></div></div>
                 
+                <div class="fb-comments" data-href="http://www.coatandtails.com/quiz_result.php" data-width="800" data-numposts="50" data-colorscheme="light"></div></div>
+
 			</div>
-            
+
 		</div>
 
 </div>
@@ -89,7 +89,7 @@ commonHeaders();
 	window.init.base_url="<?php echo $BASE_URL;?>";
 	window.target_quiz=<?php echo json_encode($_SESSION['quiz']);?>;
 	</script>
-    
+
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

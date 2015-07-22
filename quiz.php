@@ -1,5 +1,5 @@
 <?php
-$PAGE_DESCRIPTION = $CURRENT_PAGE_NAME = $CURRENT_PAGE_TYPE = 'Quiz';
+$PAGE_DESCRIPTION = $CURRENT_PAGE_NAME = $CURRENT_PAGE_TYPE = 'Whats your pets personality?';
 
 $categories = array("Spoiled vs Humble", "Analytical vs Random", "Lazy vs Energetic");
 $categories_sum = array(0, 0, 0);
@@ -65,15 +65,15 @@ $target_result = array(
       "SYAYLY"=>4
     ),
     "C"=>array(
-     "SNANLN"=>9,
-      "S_ANLN"=>2,
+      "SNANLN"=>9,
+      "S_ANLN"=>9,
       "SYANLN"=>1,
 
-      "SNA_LN"=>2,
+      "SNA_LN"=>9,
       "S_A_LN"=>7,
       "SYA_LN"=>4,
 
-      "SNAYLN"=>7,
+      "SNAYLN"=>2,
       "S_AYLN"=>2,
       "SYAYLN"=>4,
 
@@ -262,6 +262,7 @@ commonHeaders();
 			<div class="col-sm-12">
 				<p class="gray left">
 					<span>Directions</span><br/>
+          Click or tap the bar - you cannot slide it.<br/>
 					Answer from the pet’s perspective.<br/>
 					Avoid leaving neutral selected.<br/>
                     Take it very seriously.

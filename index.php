@@ -20,6 +20,12 @@ commonHeaders();
 					<div class="carousel-bg-layer" style="background-image:url('<?php echo $CDN_IMGS;?>img/homepage/bkgnd.png');"></div>
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
+							<a href="http://www.coatandtails.com/collections.php">
+								<div class="carousel-item-img img-thumbnail embed-responsive embed-responsive-4by2" style="background-image:url('<?php echo $CDN_IMGS;?>img/homepage/slide1.png');"></div>
+							</a>
+						</div>
+
+						<div class="item">
 							<a href="http://www.coatandtails.com/clothes.php?id=12">
 								<div class="carousel-item-img img-thumbnail embed-responsive embed-responsive-4by2" style="background-image:url('<?php echo $CDN_IMGS;?>img/homepage/slide7.png');"></div>
 							</a>
@@ -27,11 +33,6 @@ commonHeaders();
 						<div class="item">
 							<a href="http://www.coatandtails.com/clothes.php?id=15">
 								<div class="carousel-item-img img-thumbnail embed-responsive embed-responsive-4by2" style="background-image:url('<?php echo $CDN_IMGS;?>img/homepage/slide8.png');"></div>
-							</a>
-						</div>
-						<div class="item">
-							<a href="http://www.coatandtails.com/collections.php">
-								<div class="carousel-item-img img-thumbnail embed-responsive embed-responsive-4by2" style="background-image:url('<?php echo $CDN_IMGS;?>img/homepage/slide1.png');"></div>
 							</a>
 						</div>
 						<div class="item">

@@ -1,3 +1,5 @@
 constants.php
 constants-live.php
 constants-test.php
+upload/*
+img/user_uploads/*

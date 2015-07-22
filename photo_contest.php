@@ -29,14 +29,22 @@ commonHeaders();
 			<p class="title-caption">I need one doggie model for a shirt design that I’ll sell to help raise money for Austin Dog Rescue. You can submit your photo for a chance to have your dog drawn on one of the shirt designs!</p>		</div>
 	</div>
     
+ <div id="contest_pet_content" class="photo_contest" style="text-align:center;">
  
+
+ <h1>The photo contest has closed.</h1> <p>On March 12th, I'll post the submissions to <a href="https://www.facebook.com/coatandtails">my facebook page</a>. Thanks and good luck to all who entered! </p>
+</div>
+
+</div>
+
     
-<div id="contest_pet_content" class="photo_contest">
+<div id="contest_pet_content" class="photo_contest" style="display:none;">
  
 	<div class="float-left">
 	    <h1>Rulez</h1>
 	    <ul>
-	        <li>Like the <a  href="https://www.facebook.com/pages/Coat-and-Tails-Pet-Portraits/128628673951387" title="Facebook" target="blank">Coat and Tails Facebook Page</a> and the <a href="https://www.facebook.com/austin.dog.rescue" title="Facebook" target="blank">Austin Dog Rescue Facebook page</a>. <b> Note:</b> This contest is not affiliated with Facebook, Inc.</li>    	
+	        <li>You're submitting your pup's face to be on <a href="https://s3.amazonaws.com/coatandtails/img/rescue_rescued.jpg" target="blank">this shirt design</a>.
+            <li>Like the <a  href="https://www.facebook.com/pages/Coat-and-Tails-Pet-Portraits/128628673951387" title="Facebook" target="blank">Coat and Tails Facebook Page</a> and the <a href="https://www.facebook.com/austin.dog.rescue" title="Facebook" target="blank">Austin Dog Rescue Facebook page</a>. <b> Note:</b> This contest is not affiliated with Facebook, Inc.</li>    	
 			<li>Photo Submission Deadline is 8:00 P.M. CST on March 11th.</i>
 			<li>The photos will be posted to a Facebook album on the Coat &amp; Tails Facebook page on March 12th, 2015 to be voted upon by the community. Votes = Likes.</li>
 			<li>If your photo gets the most likes, and we agree that it is usable, your dog will be the model for one of the shirt designs. The winner will also receive a free shirt.</li>

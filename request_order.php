@@ -22,11 +22,11 @@ commonHeaders();
 <div class="container sub-header">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="<?php echo $CDN_IMGS;?>img/custom.png" alt="Custom" class="sub-header-banner-img">
+				<img src="<?php echo $CDN_IMGS;?>img/custom1.png" alt="Custom" class="sub-header-banner-img">
 			</div>
 		</div>
 		<div class="row">
-			<p class="title-caption">Fill out the form to order a fully-customized portrait.</p>		</div>
+			<p class="title-caption">Fill out the form to request a fully-customized portrait.</p>		</div>
 	</div>
     
  

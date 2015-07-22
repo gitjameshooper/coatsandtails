@@ -35,12 +35,12 @@ commonHeaders();
   	<p>The next one will be with Austin Bully Butt Rescue on May 1st 2015. Details to come!</p>
   </div>
     <div style="display:block;text-align:left;padding: 10px;">
-        <h3>Current Fundraiser: Austin Bully Butt Rescue</h3>
-            <p>Throughout the month of May, $10 of the Rescue the Bulldogs tee will go to <a href="https://www.facebook.com/AustinBullyButtRescue" target="blank">Austin Bully Butt Rescue</a>.</p>
-                <p>Below is the shirt I designed especially for this fundraiser.</p>
-                <img style="text-align:center;" src="<?php echo $CDN_IMGS;?>img/merch/tees/abbr.jpg">
+        <h3>Current Fundraiser: Don't Bully Me Rescue</h3>
+            <p>Throughout the month of June, $10 of <a href="/merchandise.php?c=8">these shirts</a> will go to Don't Bully Me Rescue.</p>
+                
+                <img style="text-align:center;" src="<?php echo $CDN_IMGS;?>img/merch/tees/pitbull_adoptshop_women.jpg">
                 <p></p>
-            <p>Participate by getting yours <a href="/product.php?id=34">here</a>.</p>
+            <p>Participate by getting yours <a href="/merchandise.php?c=8">here</a>.</p>
     </div>
 
 <div style="display:block;text-align:left;">
